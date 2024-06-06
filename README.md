@@ -1,1 +1,0 @@
-# automated_planogram_compliance
