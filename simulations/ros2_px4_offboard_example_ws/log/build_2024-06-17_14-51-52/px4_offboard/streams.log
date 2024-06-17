@@ -1,0 +1,36 @@
+[6.032s] Invoking command in '/home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/src/ROS2_PX4_Offboard_Example/px4_offboard': AMENT_PREFIX_PATH=/home/user/ros2_px4_offboard_example_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_px4_offboard_example_ws/install/px4_msgs/lib:/home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/build/px4_offboard/prefix_override:/home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_offboard/lib/python3.10/site-packages:/home/user/ros2_px4_offboard_example_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/px4_offboard build --build-base /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/build/px4_offboard/build install --record /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/build/px4_offboard/install.log --single-version-externally-managed install_data
+[6.261s] running egg_info
+[6.276s] writing ../../../build/px4_offboard/px4_offboard.egg-info/PKG-INFO
+[6.276s] writing dependency_links to ../../../build/px4_offboard/px4_offboard.egg-info/dependency_links.txt
+[6.276s] writing entry points to ../../../build/px4_offboard/px4_offboard.egg-info/entry_points.txt
+[6.276s] writing requirements to ../../../build/px4_offboard/px4_offboard.egg-info/requires.txt
+[6.277s] writing top-level names to ../../../build/px4_offboard/px4_offboard.egg-info/top_level.txt
+[6.310s] reading manifest file '../../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[6.317s] adding license file 'LICENSE'
+[6.319s] writing manifest file '../../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[6.319s] running build
+[6.319s] running build_py
+[6.319s] copying px4_offboard/velocity_control.py -> /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/build/px4_offboard/build/lib/px4_offboard
+[6.325s] copying px4_offboard/control.py -> /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/build/px4_offboard/build/lib/px4_offboard
+[6.326s] copying px4_offboard/processes.py -> /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/build/px4_offboard/build/lib/px4_offboard
+[6.326s] copying px4_offboard/visualizer.py -> /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/build/px4_offboard/build/lib/px4_offboard
+[6.327s] copying px4_offboard/__init__.py -> /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/build/px4_offboard/build/lib/px4_offboard
+[6.327s] running install
+[6.334s] running install_lib
+[6.349s] running install_data
+[6.349s] copying resource/px4_offboard -> /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_offboard/share/ament_index/resource_index/packages
+[6.360s] copying resource/visualize.rviz -> /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_offboard/share/ament_index/resource_index/packages
+[6.360s] copying package.xml -> /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_offboard/share/px4_offboard
+[6.360s] copying launch/offboard_velocity_control.launch.py -> /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_offboard/share/px4_offboard
+[6.361s] copying resource/visualize.rviz -> /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_offboard/share/px4_offboard
+[6.361s] running install_egg_info
+[6.376s] removing '/home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.0-py3.10.egg-info' (and everything under it)
+[6.376s] Copying ../../../build/px4_offboard/px4_offboard.egg-info to /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.0-py3.10.egg-info
+[6.377s] running install_scripts
+[6.507s] Installing control script to /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_offboard/lib/px4_offboard
+[6.507s] Installing offboard_control script to /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_offboard/lib/px4_offboard
+[6.508s] Installing processes script to /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_offboard/lib/px4_offboard
+[6.508s] Installing velocity_control script to /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_offboard/lib/px4_offboard
+[6.508s] Installing visualizer script to /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_offboard/lib/px4_offboard
+[6.508s] writing list of installed files to '/home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/build/px4_offboard/install.log'
+[6.528s] Invoked command in '/home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/src/ROS2_PX4_Offboard_Example/px4_offboard' returned '0': AMENT_PREFIX_PATH=/home/user/ros2_px4_offboard_example_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/user/ros2_px4_offboard_example_ws/install/px4_msgs/lib:/home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/build/px4_offboard/prefix_override:/home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/install/px4_offboard/lib/python3.10/site-packages:/home/user/ros2_px4_offboard_example_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/px4_offboard build --build-base /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/build/px4_offboard/build install --record /home/user/Documents/automated_planogram_compliance/simulations/ros2_px4_offboard_example_ws/build/px4_offboard/install.log --single-version-externally-managed install_data
