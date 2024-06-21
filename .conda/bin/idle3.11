@@ -1,0 +1,5 @@
+#!/home/user/Documents/automated_planogram_compliance_2/automated_planogram_compliance/.conda/bin/python3.11
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

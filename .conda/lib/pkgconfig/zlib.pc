@@ -1,0 +1,13 @@
+prefix=/home/user/Documents/automated_planogram_compliance_2/automated_planogram_compliance/.conda
+exec_prefix=/home/user/Documents/automated_planogram_compliance_2/automated_planogram_compliance/.conda
+libdir=/home/user/Documents/automated_planogram_compliance_2/automated_planogram_compliance/.conda/lib
+sharedlibdir=/home/user/Documents/automated_planogram_compliance_2/automated_planogram_compliance/.conda/lib
+includedir=/home/user/Documents/automated_planogram_compliance_2/automated_planogram_compliance/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

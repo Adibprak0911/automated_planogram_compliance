@@ -1,0 +1,11 @@
+prefix=/home/user/Documents/automated_planogram_compliance_2/automated_planogram_compliance/.conda
+exec_prefix=/home/user/Documents/automated_planogram_compliance_2/automated_planogram_compliance/.conda
+libdir=/home/user/Documents/automated_planogram_compliance_2/automated_planogram_compliance/.conda/lib
+includedir=/home/user/Documents/automated_planogram_compliance_2/automated_planogram_compliance/.conda/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
