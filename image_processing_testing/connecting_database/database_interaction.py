@@ -114,14 +114,18 @@ def get_flavours(product_name):
         
         # Fetch all the rows
         flavours = cursor.fetchall()
-        
-        # Print flavours
-        if flavours:
-            print(f"Flavours of {product_name}:")
-            for flavour in flavours:
-                print(flavour[0])
-        else:
-            print(f"No flavours found for {product_name}.")
+        for flavour_number in range(0, len(flavours)):
+            flavours[flavour_number] = flavours[flavour_number][0]
+            
+        print(flavours)
+        # print(type(flavours))
+        return flavours
+        # if flavours:
+        #     print(f"Flavours of {product_name}:")
+        #     for flavour in flavours:
+        #         print(flavour[0])
+        # else:
+        #     print(f"No flavours found for {product_name}.")
         
     except psycopg2.Error as e:
         print("Error while connecting to PostgreSQL:", e)
@@ -134,6 +138,7 @@ def get_flavours(product_name):
 
         
 def get_all_words():
+    # all_words = []
     try:
         # Connect to PostgreSQL database
         conn = psycopg2.connect(
@@ -163,9 +168,11 @@ def get_all_words():
             unique_elements.add(flavour)
         
         # Print all unique product names and flavours
-        print("Unique product names and flavours:")
-        for element in unique_elements:
-            print(element)
+        # print("Unique product names and flavours:")
+        # for element in unique_elements:
+        #     print(element)
+
+        return (unique_elements)
         
     except psycopg2.Error as e:
         print("Error while connecting to PostgreSQL:", e)
@@ -175,50 +182,6 @@ def get_all_words():
         if conn:
             cursor.close()
             conn.close()
-
-
-# def get_all_words():
-    # try:
-    #     # Connect to PostgreSQL database
-    #     conn = psycopg2.connect(
-    #         dbname="product_flavours",
-    #         user="postgres",
-    #         password="postgres",
-    #         host="localhost"
-    #     )
-    #     conn.autocommit = True
-    #     # Create a cursor object using the cursor() method
-    #     cursor = conn.cursor()
-        
-    #     # SQL query to select all product names and flavours
-    #     sql_query = "SELECT product_name, flavour FROM products"
-        
-    #     # Execute the SQL command
-    #     cursor.execute(sql_query)
-        
-    #     # Fetch all the rows
-    #     rows = cursor.fetchall()
-        
-    #     # Extract and split words
-    #     words = set()
-    #     for row in rows:
-    #         product_name, flavour = row
-    #         words.update(product_name.split())
-    #         words.update(flavour.split())
-        
-    #     # Print all unique words
-    #     print("Unique words in product names and flavours:")
-    #     for word in words:
-    #         print(word)
-        
-    # except psycopg2.Error as e:
-    #     print("Error while connecting to PostgreSQL:", e)
-        
-    # finally:
-    #     # Close the cursor and connection
-    #     if conn:
-    #         cursor.close()
-    #         conn.close()
 
 # Main function to demonstrate usage
 if __name__ == "__main__":
@@ -237,4 +200,8 @@ if __name__ == "__main__":
     
     # Retrieving flavours
     # get_flavours('twister')
-    get_all_words()
+    # add_product_flavour('hersheys', 'chocolate')
+    # add_product_flavour('hersheys', 'vanilla')
+    # add_product_flavour('hersheys', 'caramel')
+    # get_all_words()
+    get_flavours('hersheys')

@@ -4,6 +4,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 import os
 import database_interaction
+import predict
 
 def list_image_files(folder_path):
     image_extensions = {'.jpg'}
@@ -27,8 +28,12 @@ else:
     for i in range(len(image_files)):
         image = folder_path + '/' + image_files[i]
         reader = easyocr.Reader(['en'], gpu=False)
-        result = reader.readtext(image)
-        print(len(result))
+        result = list(reader.readtext(image))
+        print(type(result))
+        
+        text_only = list()
+        for j in range(0, len(result)):
+            text_only.append(result[j][1].lower())
 
         img = cv2.imread(image)  # Read the image once outside the inner loop
 
@@ -56,6 +61,10 @@ else:
                     largest_text = res[1].lower()
 
             if largest_box:
+                print(largest_text)
+                largest_text = predict.possible_corrections(largest_text)[0]
+                print(largest_text)
+
                 # Draw polygon for the largest detected text
                 pts = np.array(largest_box, np.int32)
                 pts = pts.reshape((-1, 1, 2))
@@ -63,16 +72,18 @@ else:
 
                 # Write the text just above the bounding box
                 font = cv2.FONT_HERSHEY_SIMPLEX
-                font_scale = 2
+                font_scale = 1
                 font_thickness = 2 
                 text_size = cv2.getTextSize(largest_text, font, font_scale, font_thickness)[0]
                 text_x = largest_box[0][0]
                 text_y = largest_box[0][1] - 10
-                cv2.putText(img, largest_text, (text_x, text_y), font, font_scale, (255, 0, 0), font_thickness)
-
-                # print(largest_text)
+                cv2.putText(img, largest_text, (text_x, text_y), font, font_scale, (0, 255, 0), font_thickness)
+                
                 flavours = database_interaction.get_flavours(largest_text)
-                print(flavours)
+                matches = list({sub for item in text_only for sub in flavours if sub in item})[0]
+
+                print(largest_text + ", ", matches)  
+
 
         else:
             print(f"No text detected in image {image_files[i]}")

@@ -1,5 +1,8 @@
+import database_interaction
 
-all_words = {'at', 'cat', 'bat', 'hat', 'rat', 'sprite'}
+all_words = database_interaction.get_all_words()
+
+# all_words = {'at', 'cat', 'bat', 'hat', 'rat', 'sprite'}
 
 def edits_one(word):
     "all edits that are one edit away from word"
@@ -19,11 +22,11 @@ def edits_two(word):
 def known(words):
     return set(word for word in words if word in all_words)
 
-print(known("cat"))
+# print(known("cat"))
 
 def possible_corrections(word):
     "generate possible spelling corrections for word"
-    return (known([word]) or known(edits_one(word)) or known(edits_two(word)) or [word])
+    return list((known([word]) or known(edits_one(word)) or known(edits_two(word)) or [word]))
 
-print(possible_corrections("sprife"))
+# /print(possible_corrections("sprife"))
 
