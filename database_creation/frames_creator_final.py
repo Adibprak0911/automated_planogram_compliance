@@ -2,10 +2,10 @@ import cv2
 import os
 
 # Path to the video file
-video_file = '/home/user/Documents/automated_planogram_compliance/automated_planogram_compliance-1/database_creation/kurkures/10.mp4'
+video_file = '/home/user/Documents/automated_planogram_compliance/automated_planogram_compliance-1/database_creation/layss/10.mp4'
 
 # Specific directory to save frames
-output_dir = '/home/user/Documents/automated_planogram_compliance/automated_planogram_compliance-1/database_creation/kurkuresf10'
+output_dir = '/home/user/Documents/automated_planogram_compliance/automated_planogram_compliance-1/database_creation/frames/lays/10'
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
