@@ -1,0 +1,173 @@
+[0.000000] (-) TimerEvent: {}
+[0.000709] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.000780] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs')])}
+[0.000862] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.006632] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.006804] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/src/px4_msgs', '-DCMAKE_INSTALL_PREFIX=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs'], 'cwd': '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/inlab22/Documents/automated_planogram_compliance/simulations/PX4-Autopilot/Tools/simulation/gz/models'), ('LANGUAGE', 'en_IN:en'), ('USER', 'inlab22'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/inlab22'), ('OLDPWD', '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('SYSTEMD_EXEC_PID', '7949'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'inlab22'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'inlab22'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/inlab22/Documents/automated_planogram_compliance/.venv/bin:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/inlab1070:@/tmp/.ICE-unix/1944,unix/inlab1070:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b9eaebd_7fca_4aba_95cc_52a30faab3e6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('VIRTUAL_ENV_PROMPT', '(.venv)'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VIRTUAL_ENV', '/home/inlab22/Documents/automated_planogram_compliance/.venv'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.053741] (px4_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099797] (-) TimerEvent: {}
+[0.101622] (px4_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.107689] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.167581] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.174352] (px4_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.174530] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.174835] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.177247] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199873] (-) TimerEvent: {}
+[0.245625] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.252169] (px4_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.252361] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.252725] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.254534] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299950] (-) TimerEvent: {}
+[0.400146] (-) TimerEvent: {}
+[0.500359] (-) TimerEvent: {}
+[0.555628] (px4_msgs) StdoutLine: {'line': b'-- Found Python3: /home/inlab22/Documents/automated_planogram_compliance/.venv/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600472] (-) TimerEvent: {}
+[0.622484] (px4_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.651632] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.655517] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.662274] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.674212] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.690911] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700566] (-) TimerEvent: {}
+[0.705349] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.800671] (-) TimerEvent: {}
+[0.900906] (-) TimerEvent: {}
+[1.001132] (-) TimerEvent: {}
+[1.101347] (-) TimerEvent: {}
+[1.201582] (-) TimerEvent: {}
+[1.301811] (-) TimerEvent: {}
+[1.402049] (-) TimerEvent: {}
+[1.502280] (-) TimerEvent: {}
+[1.602504] (-) TimerEvent: {}
+[1.702754] (-) TimerEvent: {}
+[1.802993] (-) TimerEvent: {}
+[1.903258] (-) TimerEvent: {}
+[2.003489] (-) TimerEvent: {}
+[2.103739] (-) TimerEvent: {}
+[2.203972] (-) TimerEvent: {}
+[2.257486] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[2.258942] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[2.260611] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[2.262241] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.304079] (-) TimerEvent: {}
+[2.404317] (-) TimerEvent: {}
+[2.504534] (-) TimerEvent: {}
+[2.604779] (-) TimerEvent: {}
+[2.649703] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.704893] (-) TimerEvent: {}
+[2.786941] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.805000] (-) TimerEvent: {}
+[2.853262] (px4_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /home/inlab22/Documents/automated_planogram_compliance/.venv/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.873721] (px4_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.905117] (-) TimerEvent: {}
+[2.926494] (px4_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.926685] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/inlab22/Documents/automated_planogram_compliance/.venv/bin/python3\n'}
+[2.926743] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.926795] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.944269] (px4_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.005229] (-) TimerEvent: {}
+[3.036406] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[3.037890] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[3.105337] (-) TimerEvent: {}
+[3.106482] (px4_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.205448] (-) TimerEvent: {}
+[3.305681] (-) TimerEvent: {}
+[3.405918] (-) TimerEvent: {}
+[3.482930] (px4_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.486025] (px4_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs\n'}
+[3.502629] (px4_msgs) CommandEnded: {'returncode': 0}
+[3.503229] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'build'}
+[3.504474] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs', '--', '-j12', '-l12'], 'cwd': '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/inlab22/Documents/automated_planogram_compliance/simulations/PX4-Autopilot/Tools/simulation/gz/models'), ('LANGUAGE', 'en_IN:en'), ('USER', 'inlab22'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/inlab22'), ('OLDPWD', '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('SYSTEMD_EXEC_PID', '7949'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'inlab22'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'inlab22'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/inlab22/Documents/automated_planogram_compliance/.venv/bin:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/inlab1070:@/tmp/.ICE-unix/1944,unix/inlab1070:/tmp/.ICE-unix/1944'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b9eaebd_7fca_4aba_95cc_52a30faab3e6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('VIRTUAL_ENV_PROMPT', '(.venv)'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VIRTUAL_ENV', '/home/inlab22/Documents/automated_planogram_compliance/.venv'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.505973] (-) TimerEvent: {}
+[3.606156] (-) TimerEvent: {}
+[3.706392] (-) TimerEvent: {}
+[3.806618] (-) TimerEvent: {}
+[3.906866] (-) TimerEvent: {}
+[4.007121] (-) TimerEvent: {}
+[4.094527] (px4_msgs) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.100642] (px4_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_px4_msgs\n'}
+[4.107224] (-) TimerEvent: {}
+[4.112916] (px4_msgs) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.149345] (px4_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[4.149804] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>\n'}
+[4.149863] (px4_msgs) StderrLine: {'line': b'    from rosidl_generator_c import generate_c\n'}
+[4.149913] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 15, in <module>\n'}
+[4.149961] (px4_msgs) StderrLine: {'line': b'    from rosidl_cmake import convert_camel_case_to_lower_case_underscore\n'}
+[4.150009] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>\n'}
+[4.150056] (px4_msgs) StderrLine: {'line': b'    from rosidl_parser.parser import parse_idl_file\n'}
+[4.150102] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>\n'}
+[4.150149] (px4_msgs) StderrLine: {'line': b'    from lark import Lark\n'}
+[4.150214] (px4_msgs) StderrLine: {'line': b"ModuleNotFoundError: No module named 'lark'\n"}
+[4.155271] (px4_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/px4_msgs__rosidl_generator_c.dir/build.make:304: rosidl_generator_c/px4_msgs/msg/action_request.h] Error 1\n'}
+[4.155529] (px4_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/px4_msgs__rosidl_generator_c.dir/all] Error 2\n'}
+[4.155594] (px4_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.163635] (px4_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[4.163798] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>\n'}
+[4.163873] (px4_msgs) StderrLine: {'line': b'    from rosidl_generator_cpp import generate_cpp\n'}
+[4.163923] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>\n'}
+[4.163971] (px4_msgs) StderrLine: {'line': b'    from rosidl_cmake import generate_files\n'}
+[4.164018] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>\n'}
+[4.164063] (px4_msgs) StderrLine: {'line': b'    from rosidl_parser.parser import parse_idl_file\n'}
+[4.164109] (px4_msgs) StderrLine: {'line': b'  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>\n'}
+[4.164155] (px4_msgs) StderrLine: {'line': b'    from lark import Lark\n'}
+[4.164200] (px4_msgs) StderrLine: {'line': b"ModuleNotFoundError: No module named 'lark'\n"}
+[4.169383] (px4_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/px4_msgs__cpp.dir/build.make:1168: rosidl_generator_cpp/px4_msgs/msg/action_request.hpp] Error 1\n'}
+[4.169618] (px4_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/px4_msgs__cpp.dir/all] Error 2\n'}
+[4.207302] (-) TimerEvent: {}
+[4.307528] (-) TimerEvent: {}
+[4.326845] (px4_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.327711] (px4_msgs) StdoutLine: {'line': b'creating px4_msgs.egg-info\n'}
+[4.337442] (px4_msgs) StdoutLine: {'line': b'writing px4_msgs.egg-info/PKG-INFO\n'}
+[4.337821] (px4_msgs) StdoutLine: {'line': b'writing dependency_links to px4_msgs.egg-info/dependency_links.txt\n'}
+[4.338087] (px4_msgs) StdoutLine: {'line': b'writing top-level names to px4_msgs.egg-info/top_level.txt\n'}
+[4.338272] (px4_msgs) StdoutLine: {'line': b"writing manifest file 'px4_msgs.egg-info/SOURCES.txt'\n"}
+[4.366511] (px4_msgs) StdoutLine: {'line': b"reading manifest file 'px4_msgs.egg-info/SOURCES.txt'\n"}
+[4.367019] (px4_msgs) StdoutLine: {'line': b"writing manifest file 'px4_msgs.egg-info/SOURCES.txt'\n"}
+[4.389142] (px4_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_px4_msgs_egg\n'}
+[4.390214] (px4_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.392664] (px4_msgs) CommandEnded: {'returncode': 2}
+[4.407649] (-) TimerEvent: {}
+[4.507920] (-) TimerEvent: {}
+[4.608165] (-) TimerEvent: {}
+[4.708413] (-) TimerEvent: {}
+[4.808673] (-) TimerEvent: {}
+[4.908923] (-) TimerEvent: {}
+[5.009165] (-) TimerEvent: {}
+[5.109389] (-) TimerEvent: {}
+[5.209613] (-) TimerEvent: {}
+[5.309806] (-) TimerEvent: {}
+[5.410002] (-) TimerEvent: {}
+[5.510246] (-) TimerEvent: {}
+[5.610473] (-) TimerEvent: {}
+[5.710705] (-) TimerEvent: {}
+[5.811151] (-) TimerEvent: {}
+[5.911502] (-) TimerEvent: {}
+[6.011780] (-) TimerEvent: {}
+[6.112106] (-) TimerEvent: {}
+[6.212340] (-) TimerEvent: {}
+[6.312563] (-) TimerEvent: {}
+[6.412822] (-) TimerEvent: {}
+[6.513111] (-) TimerEvent: {}
+[6.613297] (-) TimerEvent: {}
+[6.713546] (-) TimerEvent: {}
+[6.813740] (-) TimerEvent: {}
+[6.913968] (-) TimerEvent: {}
+[7.014215] (-) TimerEvent: {}
+[7.114461] (-) TimerEvent: {}
+[7.214702] (-) TimerEvent: {}
+[7.314930] (-) TimerEvent: {}
+[7.415128] (-) TimerEvent: {}
+[7.515339] (-) TimerEvent: {}
+[7.615580] (-) TimerEvent: {}
+[7.715836] (-) TimerEvent: {}
+[7.816263] (-) TimerEvent: {}
+[7.916490] (-) TimerEvent: {}
+[8.016772] (-) TimerEvent: {}
+[8.116997] (-) TimerEvent: {}
+[8.217208] (-) TimerEvent: {}
+[8.319255] (-) TimerEvent: {}
+[8.330648] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 2}
+[8.341162] (px4_ros_com) JobSkipped: {'identifier': 'px4_ros_com'}
+[8.341198] (-) EventReactorShutdown: {}
