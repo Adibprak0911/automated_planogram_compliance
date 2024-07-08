@@ -1,0 +1,6 @@
+/home/inlab22/Documents/automated_planogram_compliance/simulations/udacidrone/setup.py:25: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  ] + (['uvloop==0.9.1'] if platform.system() is not 'Windows' else []),
+/home/inlab22/Documents/automated_planogram_compliance/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection/websocket_connection.py:21: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if platform.system() is not 'Windows':
+/home/inlab22/Documents/automated_planogram_compliance/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection/mavlink_connection.py:54: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if device is not "":

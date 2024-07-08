@@ -1,0 +1,76 @@
+[0.018s] Invoking command in '/home/inlab22/Documents/automated_planogram_compliance/build/microxrcedds_agent': PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/home/inlab22/Documents/automated_planogram_compliance/install/microxrcedds_agent
+[0.274s] -- The C compiler identification is GNU 11.4.0
+[0.274s] -- Detecting C compiler ABI info
+[0.274s] -- Detecting C compiler ABI info - done
+[0.274s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.274s] -- Detecting C compile features
+[0.274s] -- Detecting C compile features - done
+[0.274s] -- The CXX compiler identification is GNU 11.4.0
+[0.274s] -- Detecting CXX compiler ABI info
+[0.303s] -- Detecting CXX compiler ABI info - done
+[0.316s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.317s] -- Detecting CXX compile features
+[0.317s] -- Detecting CXX compile features - done
+[0.665s] -- Looking for pthread.h
+[0.735s] -- Looking for pthread.h - found
+[0.735s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.801s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.802s] -- Found Threads: TRUE  
+[1.188s] -- Configuring done
+[1.190s] -- Generating done
+[1.191s] -- Build files have been written to: /home/inlab22/Documents/automated_planogram_compliance/build/microxrcedds_agent
+[1.195s] Invoked command in '/home/inlab22/Documents/automated_planogram_compliance/build/microxrcedds_agent' returned '0': PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/home/inlab22/Documents/automated_planogram_compliance/install/microxrcedds_agent
+[1.197s] Invoking command in '/home/inlab22/Documents/automated_planogram_compliance/build/microxrcedds_agent': PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/inlab22/Documents/automated_planogram_compliance/build/microxrcedds_agent -- -j12 -l12
+[1.236s] [ 12%] [34m[1mCreating directories for 'uagent'[0m
+[1.297s] [ 25%] [34m[1mNo download step for 'uagent'[0m
+[1.318s] [ 37%] [34m[1mNo update step for 'uagent'[0m
+[1.339s] [ 50%] [34m[1mNo patch step for 'uagent'[0m
+[1.362s] [ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+[1.370s] loading initial cache file /home/inlab22/Documents/automated_planogram_compliance/build/microxrcedds_agent/uagent-prefix/tmp/uagent-cache-.cmake
+[1.374s] -- Setting build type to 'Release' as none was specified.
+[1.878s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.878s]   The package name passed to `find_package_handle_standard_args` (tinyxml2)
+[1.878s]   does not match the name of the calling package (TinyXML2).  This can lead
+[1.878s]   to problems in calling code that expects `find_package` result variables
+[1.878s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.878s] Call Stack (most recent call first):
+[1.878s]   cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+[1.878s]   /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+[1.878s]   CMakeLists.txt:153 (find_package)
+[1.878s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.878s] [0m
+[1.878s] -- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[2.225s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.465s] -- Configuring done
+[2.476s] -- Generating done
+[2.477s] -- Build files have been written to: /home/inlab22/Documents/automated_planogram_compliance/build/microxrcedds_agent
+[2.493s] [ 75%] [34m[1mPerforming build step for 'uagent'[0m
+[2.531s] [  2%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[2.531s] [  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[2.531s] [  6%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[2.532s] [  8%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o[0m
+[2.532s] [ 10%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o[0m
+[2.533s] [ 12%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[2.533s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o[0m
+[2.533s] [ 18%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[2.533s] [ 18%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o[0m
+[2.537s] [ 20%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o[0m
+[2.539s] [ 22%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o[0m
+[2.539s] [ 24%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o[0m
+[3.826s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:146: CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o] Interrupt
+[3.826s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:76: CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o] Interrupt
+[3.827s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:90: CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o] Interrupt
+[3.827s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:104: CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o] Interrupt
+[3.828s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:132: CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o] Interrupt
+[3.828s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:160: CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o] Interrupt
+[3.828s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:174: CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o] Interrupt
+[3.828s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:118: CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o] Interrupt
+[3.828s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:188: CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o] Interrupt
+[3.829s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:230: CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o] Interrupt
+[3.829s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:202: CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o] Interrupt
+[3.829s] gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:216: CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o] Interrupt
+[3.829s] gmake[4]: *** [CMakeFiles/Makefile2:85: CMakeFiles/microxrcedds_agent.dir/all] Interrupt
+[3.829s] gmake[3]: *** [Makefile:136: all] Interrupt
+[3.829s] gmake[2]: *** [CMakeFiles/uagent.dir/build.make:86: uagent-prefix/src/uagent-stamp/uagent-build] Interrupt
+[3.829s] gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/uagent.dir/all] Interrupt
+[3.829s] gmake: *** [Makefile:91: all] Interrupt
