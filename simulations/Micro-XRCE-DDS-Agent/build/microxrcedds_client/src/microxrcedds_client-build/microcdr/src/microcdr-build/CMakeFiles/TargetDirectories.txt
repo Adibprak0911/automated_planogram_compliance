@@ -1,0 +1,7 @@
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/microcdr.dir
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/edit_cache.dir
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/rebuild_cache.dir
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/list_install_components.dir
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/install.dir
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/install/local.dir
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/install/strip.dir

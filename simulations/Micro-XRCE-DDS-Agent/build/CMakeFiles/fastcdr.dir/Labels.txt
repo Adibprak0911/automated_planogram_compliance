@@ -1,0 +1,14 @@
+# Target labels
+ fastcdr
+# Source files and their labels
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/CMakeFiles/fastcdr
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/CMakeFiles/fastcdr.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/CMakeFiles/fastcdr-complete.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-build.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-configure.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-download.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-install.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-mkdir.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-patch.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-test.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/fastcdr/src/fastcdr-stamp/fastcdr-update.rule

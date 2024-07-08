@@ -1,0 +1,13 @@
+# Target labels
+ ucdr
+# Source files and their labels
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/ucdr
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/ucdr.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/ucdr-complete.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-build.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-configure.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-download.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-install.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-patch.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-update.rule

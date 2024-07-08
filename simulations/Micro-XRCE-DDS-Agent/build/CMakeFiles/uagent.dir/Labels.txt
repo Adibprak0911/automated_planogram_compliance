@@ -1,0 +1,13 @@
+# Target labels
+ uagent
+# Source files and their labels
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/CMakeFiles/uagent
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/CMakeFiles/uagent.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/CMakeFiles/uagent-complete.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/uagent-prefix/src/uagent-stamp/uagent-build.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/uagent-prefix/src/uagent-stamp/uagent-configure.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/uagent-prefix/src/uagent-stamp/uagent-download.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/uagent-prefix/src/uagent-stamp/uagent-install.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/uagent-prefix/src/uagent-stamp/uagent-mkdir.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/uagent-prefix/src/uagent-stamp/uagent-patch.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/uagent-prefix/src/uagent-stamp/uagent-update.rule

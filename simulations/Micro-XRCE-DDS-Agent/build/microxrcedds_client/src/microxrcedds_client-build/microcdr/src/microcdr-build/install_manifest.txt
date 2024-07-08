@@ -1,0 +1,10 @@
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/lib/libmicrocdr.so.2.0.1
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/lib/libmicrocdr.so.2.0
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/lib/libmicrocdr.so
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/include/ucdr/visibility.h
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/include/ucdr/microcdr.h
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/include/ucdr/config.h
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrTargets.cmake
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrTargets-release.cmake
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrConfig.cmake
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrConfigVersion.cmake
