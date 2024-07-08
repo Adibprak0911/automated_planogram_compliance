@@ -1,0 +1,77 @@
+[0.600s] Invoking command in '/home/inlab22/Documents/automated_planogram_compliance/simulations/udacidrone': PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/udacidrone build --build-base /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build install --record /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/install.log --single-version-externally-managed
+[0.620s] /home/inlab22/Documents/automated_planogram_compliance/simulations/udacidrone/setup.py:25: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+[0.621s]   ] + (['uvloop==0.9.1'] if platform.system() is not 'Windows' else []),
+[0.843s] running egg_info
+[0.843s] creating ../build/udacidrone/udacidrone.egg-info
+[0.843s] writing ../build/udacidrone/udacidrone.egg-info/PKG-INFO
+[0.843s] writing dependency_links to ../build/udacidrone/udacidrone.egg-info/dependency_links.txt
+[0.844s] writing requirements to ../build/udacidrone/udacidrone.egg-info/requires.txt
+[0.844s] writing top-level names to ../build/udacidrone/udacidrone.egg-info/top_level.txt
+[0.844s] writing manifest file '../build/udacidrone/udacidrone.egg-info/SOURCES.txt'
+[0.846s] reading manifest file '../build/udacidrone/udacidrone.egg-info/SOURCES.txt'
+[0.848s] writing manifest file '../build/udacidrone/udacidrone.egg-info/SOURCES.txt'
+[0.848s] running build
+[0.849s] running build_py
+[0.849s] creating /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build
+[0.849s] creating /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib
+[0.849s] creating /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone
+[0.849s] copying udacidrone/frame_utils.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone
+[0.849s] copying udacidrone/__init__.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone
+[0.849s] copying udacidrone/drone.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone
+[0.850s] creating /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/logging
+[0.850s] copying udacidrone/logging/logger.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/logging
+[0.850s] copying udacidrone/logging/__init__.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/logging
+[0.850s] creating /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/messaging
+[0.850s] copying udacidrone/messaging/message_ids.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/messaging
+[0.850s] copying udacidrone/messaging/__init__.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/messaging
+[0.851s] creating /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/connection
+[0.851s] copying udacidrone/connection/mavlink_utils.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/connection
+[0.851s] copying udacidrone/connection/connection.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/connection
+[0.851s] copying udacidrone/connection/websocket_connection.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/connection
+[0.851s] copying udacidrone/connection/__init__.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/connection
+[0.851s] copying udacidrone/connection/mavlink_connection.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/connection
+[0.851s] copying udacidrone/connection/crazyflie_connection.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/connection
+[0.851s] copying udacidrone/connection/message_types.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/connection
+[0.852s] running install
+[0.852s] running install_lib
+[0.853s] creating /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone
+[0.853s] creating /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/logging
+[0.853s] copying /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/logging/logger.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/logging
+[0.854s] copying /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/logging/__init__.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/logging
+[0.854s] copying /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/frame_utils.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone
+[0.854s] copying /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/__init__.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone
+[0.854s] creating /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/messaging
+[0.854s] copying /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/messaging/message_ids.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/messaging
+[0.854s] copying /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/messaging/__init__.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/messaging
+[0.854s] creating /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection
+[0.855s] copying /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/connection/mavlink_utils.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection
+[0.855s] copying /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/connection/connection.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection
+[0.855s] copying /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/connection/websocket_connection.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection
+[0.855s] copying /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/connection/__init__.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection
+[0.855s] copying /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/connection/mavlink_connection.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection
+[0.855s] copying /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/connection/crazyflie_connection.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection
+[0.855s] copying /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/connection/message_types.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection
+[0.856s] copying /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build/lib/udacidrone/drone.py -> /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone
+[0.856s] byte-compiling /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/logging/logger.py to logger.cpython-310.pyc
+[0.857s] byte-compiling /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/logging/__init__.py to __init__.cpython-310.pyc
+[0.857s] byte-compiling /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/frame_utils.py to frame_utils.cpython-310.pyc
+[0.858s] byte-compiling /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/__init__.py to __init__.cpython-310.pyc
+[0.858s] byte-compiling /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/messaging/message_ids.py to message_ids.cpython-310.pyc
+[0.858s] byte-compiling /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/messaging/__init__.py to __init__.cpython-310.pyc
+[0.858s] byte-compiling /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection/mavlink_utils.py to mavlink_utils.cpython-310.pyc
+[0.860s] byte-compiling /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection/connection.py to connection.cpython-310.pyc
+[0.860s] byte-compiling /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection/websocket_connection.py to websocket_connection.cpython-310.pyc
+[0.862s] /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection/websocket_connection.py:21: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+[0.862s]   if platform.system() is not 'Windows':
+[0.862s] byte-compiling /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection/__init__.py to __init__.cpython-310.pyc
+[0.863s] byte-compiling /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection/mavlink_connection.py to mavlink_connection.cpython-310.pyc
+[0.865s] /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection/mavlink_connection.py:54: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+[0.865s]   if device is not "":
+[0.865s] byte-compiling /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection/crazyflie_connection.py to crazyflie_connection.cpython-310.pyc
+[0.869s] byte-compiling /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/connection/message_types.py to message_types.cpython-310.pyc
+[0.870s] byte-compiling /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone/drone.py to drone.cpython-310.pyc
+[0.872s] running install_egg_info
+[0.874s] Copying ../build/udacidrone/udacidrone.egg-info to /home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages/udacidrone-0.3.5-py3.10.egg-info
+[0.874s] running install_scripts
+[0.898s] writing list of installed files to '/home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/install.log'
+[0.936s] Invoked command in '/home/inlab22/Documents/automated_planogram_compliance/simulations/udacidrone' returned '0': PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/inlab22/Documents/automated_planogram_compliance/simulations/install/udacidrone/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/udacidrone build --build-base /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/build install --record /home/inlab22/Documents/automated_planogram_compliance/simulations/build/udacidrone/install.log --single-version-externally-managed

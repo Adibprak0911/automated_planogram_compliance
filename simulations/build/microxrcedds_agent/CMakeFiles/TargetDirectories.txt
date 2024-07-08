@@ -1,0 +1,8 @@
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/microxrcedds_agent/CMakeFiles/microxrcedds_agent.dir
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/microxrcedds_agent/CMakeFiles/MicroXRCEAgent.dir
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/microxrcedds_agent/CMakeFiles/edit_cache.dir
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/microxrcedds_agent/CMakeFiles/rebuild_cache.dir
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/microxrcedds_agent/CMakeFiles/list_install_components.dir
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/microxrcedds_agent/CMakeFiles/install.dir
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/microxrcedds_agent/CMakeFiles/install/local.dir
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/microxrcedds_agent/CMakeFiles/install/strip.dir

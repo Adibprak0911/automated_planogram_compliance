@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="beer">
+    <include>
+        <uri>
+            https://fuel.gazebosim.org/1.0/OpenRobotics/models/Beer
+        </uri>
+    </include>
+  </model>
+</sdf>
