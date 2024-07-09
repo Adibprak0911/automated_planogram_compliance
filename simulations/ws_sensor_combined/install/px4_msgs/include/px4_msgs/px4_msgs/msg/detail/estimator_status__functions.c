@@ -25,7 +25,6 @@ px4_msgs__msg__EstimatorStatus__init(px4_msgs__msg__EstimatorStatus * msg)
   // filter_fault_flags
   // pos_horiz_accuracy
   // pos_vert_accuracy
-  // innovation_check_flags
   // mag_test_ratio
   // vel_test_ratio
   // pos_test_ratio
@@ -72,7 +71,6 @@ px4_msgs__msg__EstimatorStatus__fini(px4_msgs__msg__EstimatorStatus * msg)
   // filter_fault_flags
   // pos_horiz_accuracy
   // pos_vert_accuracy
-  // innovation_check_flags
   // mag_test_ratio
   // vel_test_ratio
   // pos_test_ratio
@@ -142,10 +140,6 @@ px4_msgs__msg__EstimatorStatus__are_equal(const px4_msgs__msg__EstimatorStatus *
   }
   // pos_vert_accuracy
   if (lhs->pos_vert_accuracy != rhs->pos_vert_accuracy) {
-    return false;
-  }
-  // innovation_check_flags
-  if (lhs->innovation_check_flags != rhs->innovation_check_flags) {
     return false;
   }
   // mag_test_ratio
@@ -293,8 +287,6 @@ px4_msgs__msg__EstimatorStatus__copy(
   output->pos_horiz_accuracy = input->pos_horiz_accuracy;
   // pos_vert_accuracy
   output->pos_vert_accuracy = input->pos_vert_accuracy;
-  // innovation_check_flags
-  output->innovation_check_flags = input->innovation_check_flags;
   // mag_test_ratio
   output->mag_test_ratio = input->mag_test_ratio;
   // vel_test_ratio

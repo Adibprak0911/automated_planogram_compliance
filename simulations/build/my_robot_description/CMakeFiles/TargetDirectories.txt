@@ -1,0 +1,9 @@
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/my_robot_description/CMakeFiles/uninstall.dir
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/my_robot_description/CMakeFiles/my_robot_description_uninstall.dir
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/my_robot_description/CMakeFiles/test.dir
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/my_robot_description/CMakeFiles/edit_cache.dir
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/my_robot_description/CMakeFiles/rebuild_cache.dir
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/my_robot_description/CMakeFiles/list_install_components.dir
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/my_robot_description/CMakeFiles/install.dir
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/my_robot_description/CMakeFiles/install/local.dir
+/home/inlab22/Documents/automated_planogram_compliance/simulations/build/my_robot_description/CMakeFiles/install/strip.dir

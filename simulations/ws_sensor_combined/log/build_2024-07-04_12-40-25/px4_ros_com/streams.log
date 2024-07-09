@@ -1,0 +1,147 @@
+[0.007s] Invoking command in '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_ros_com': AMENT_PREFIX_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.098s] -- The CXX compiler identification is GNU 11.4.0
+[0.104s] -- Detecting C compiler ABI info
+[0.162s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.176s] -- Detecting CXX compiler ABI info
+[0.246s] -- Detecting CXX compiler ABI info - done
+[0.256s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.256s] -- Detecting CXX compile features
+[0.257s] -- Detecting CXX compile features - done
+[0.260s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.556s] -- Found Python3: /home/inlab22/Documents/automated_planogram_compliance/.venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.624s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.652s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.656s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.663s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.674s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.692s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.716s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.754s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.772s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.875s] -- Found px4_msgs: 2.0.1 (/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs/share/px4_msgs/cmake)
+[0.905s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.957s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.959s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.040s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.066s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.111s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.119s] -- Looking for pthread.h
+[1.180s] -- Looking for pthread.h - found
+[1.180s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.241s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.242s] -- Found Threads: TRUE  
+[1.378s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.484s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[1.490s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.616s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.620s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.621s] -- Configured cppcheck include dirs: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/src/px4_ros_com/include/px4_ros_com>
+[1.621s] -- Configured cppcheck exclude dirs and/or files: 
+[1.631s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.631s] -- Configured cpplint exclude dirs and/or files: 
+[1.632s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.633s] -- Added test 'lint_cmake' to check CMake code style
+[1.634s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.639s] -- Added test 'uncrustify' to check C / C++ code style
+[1.639s] -- Configured uncrustify additional arguments: 
+[1.640s] -- Added test 'xmllint' to check XML markup files
+[1.641s] -- Configuring done
+[1.664s] -- Generating done
+[1.666s] -- Build files have been written to: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_ros_com
+[1.676s] Invoked command in '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com
+[1.676s] Invoking command in '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_ros_com': AMENT_PREFIX_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_ros_com -- -j12 -l12
+[1.720s] [  8%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[1.721s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[1.726s] [ 33%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[1.726s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[1.726s] [ 50%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[1.726s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[1.734s] [ 50%] Built target ament_cmake_python_copy_px4_ros_com
+[1.892s] running egg_info
+[1.893s] creating px4_ros_com.egg-info
+[1.902s] writing px4_ros_com.egg-info/PKG-INFO
+[1.902s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[1.902s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[1.902s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.932s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.932s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.956s] [ 50%] Built target ament_cmake_python_build_px4_ros_com_egg
+[8.145s] [ 58%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[8.355s] [ 58%] Built target debug_vect_advertiser
+[8.705s] [ 66%] [32m[1mLinking CXX executable offboard_control[0m
+[8.920s] [ 66%] Built target offboard_control
+[9.485s] [ 75%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[9.727s] [ 75%] Built target offboard_control_srv
+[11.205s] [ 83%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[11.628s] [ 83%] Built target frame_transforms
+[11.821s] [ 91%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[12.226s] [ 91%] Built target vehicle_gps_position_listener
+[12.756s] [100%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[13.056s] [100%] Built target sensor_combined_listener
+[13.065s] Invoked command in '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_ros_com -- -j12 -l12
+[13.102s] Invoking command in '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_ros_com': AMENT_PREFIX_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_ros_com
+[13.108s] -- Install configuration: ""
+[13.108s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[13.111s] -- Set runtime path of "/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[13.111s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[13.114s] -- Set runtime path of "/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[13.115s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[13.116s] -- Set runtime path of "/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[13.116s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[13.117s] -- Set runtime path of "/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[13.117s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[13.119s] -- Set runtime path of "/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[13.119s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[13.119s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[13.119s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/include/px4_ros_com
+[13.120s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[13.120s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/libframe_transforms.so
+[13.123s] -- Set runtime path of "/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[13.124s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//launch
+[13.124s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[13.124s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[13.124s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test
+[13.124s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[13.124s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[13.124s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[13.124s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[13.124s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[13.124s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[13.124s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[13.125s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[13.125s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[13.125s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[13.125s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[13.125s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages/px4_ros_com
+[13.125s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages/px4_ros_com/__init__.py
+[13.125s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages/px4_ros_com/module_to_import.py
+[13.151s] Listing '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages/px4_ros_com'...
+[13.151s] Compiling '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages/px4_ros_com/__init__.py'...
+[13.151s] Compiling '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/python3.10/site-packages/px4_ros_com/module_to_import.py'...
+[13.154s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[13.154s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[13.154s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[13.154s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[13.155s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[13.155s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[13.155s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[13.155s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[13.155s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[13.155s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[13.155s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[13.155s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.dsv
+[13.156s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[13.156s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[13.156s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[13.156s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.156s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[13.156s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.157s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[13.157s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[13.157s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[13.157s] -- Installing: /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.xml
+[13.160s] Invoked command in '/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/install/px4_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_ros_com

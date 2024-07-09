@@ -21,16 +21,128 @@ namespace msg
 namespace builder
 {
 
+class Init_BatteryStatus_estimation_covariance_norm
+{
+public:
+  explicit Init_BatteryStatus_estimation_covariance_norm(::px4_msgs::msg::BatteryStatus & msg)
+  : msg_(msg)
+  {}
+  ::px4_msgs::msg::BatteryStatus estimation_covariance_norm(::px4_msgs::msg::BatteryStatus::_estimation_covariance_norm_type arg)
+  {
+    msg_.estimation_covariance_norm = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::px4_msgs::msg::BatteryStatus msg_;
+};
+
+class Init_BatteryStatus_prediction_error
+{
+public:
+  explicit Init_BatteryStatus_prediction_error(::px4_msgs::msg::BatteryStatus & msg)
+  : msg_(msg)
+  {}
+  Init_BatteryStatus_estimation_covariance_norm prediction_error(::px4_msgs::msg::BatteryStatus::_prediction_error_type arg)
+  {
+    msg_.prediction_error = std::move(arg);
+    return Init_BatteryStatus_estimation_covariance_norm(msg_);
+  }
+
+private:
+  ::px4_msgs::msg::BatteryStatus msg_;
+};
+
+class Init_BatteryStatus_voltage_prediction
+{
+public:
+  explicit Init_BatteryStatus_voltage_prediction(::px4_msgs::msg::BatteryStatus & msg)
+  : msg_(msg)
+  {}
+  Init_BatteryStatus_prediction_error voltage_prediction(::px4_msgs::msg::BatteryStatus::_voltage_prediction_type arg)
+  {
+    msg_.voltage_prediction = std::move(arg);
+    return Init_BatteryStatus_prediction_error(msg_);
+  }
+
+private:
+  ::px4_msgs::msg::BatteryStatus msg_;
+};
+
+class Init_BatteryStatus_volt_based_soc_estimate
+{
+public:
+  explicit Init_BatteryStatus_volt_based_soc_estimate(::px4_msgs::msg::BatteryStatus & msg)
+  : msg_(msg)
+  {}
+  Init_BatteryStatus_voltage_prediction volt_based_soc_estimate(::px4_msgs::msg::BatteryStatus::_volt_based_soc_estimate_type arg)
+  {
+    msg_.volt_based_soc_estimate = std::move(arg);
+    return Init_BatteryStatus_voltage_prediction(msg_);
+  }
+
+private:
+  ::px4_msgs::msg::BatteryStatus msg_;
+};
+
+class Init_BatteryStatus_ocv_estimate_filtered
+{
+public:
+  explicit Init_BatteryStatus_ocv_estimate_filtered(::px4_msgs::msg::BatteryStatus & msg)
+  : msg_(msg)
+  {}
+  Init_BatteryStatus_volt_based_soc_estimate ocv_estimate_filtered(::px4_msgs::msg::BatteryStatus::_ocv_estimate_filtered_type arg)
+  {
+    msg_.ocv_estimate_filtered = std::move(arg);
+    return Init_BatteryStatus_volt_based_soc_estimate(msg_);
+  }
+
+private:
+  ::px4_msgs::msg::BatteryStatus msg_;
+};
+
+class Init_BatteryStatus_ocv_estimate
+{
+public:
+  explicit Init_BatteryStatus_ocv_estimate(::px4_msgs::msg::BatteryStatus & msg)
+  : msg_(msg)
+  {}
+  Init_BatteryStatus_ocv_estimate_filtered ocv_estimate(::px4_msgs::msg::BatteryStatus::_ocv_estimate_type arg)
+  {
+    msg_.ocv_estimate = std::move(arg);
+    return Init_BatteryStatus_ocv_estimate_filtered(msg_);
+  }
+
+private:
+  ::px4_msgs::msg::BatteryStatus msg_;
+};
+
+class Init_BatteryStatus_internal_resistance_estimate
+{
+public:
+  explicit Init_BatteryStatus_internal_resistance_estimate(::px4_msgs::msg::BatteryStatus & msg)
+  : msg_(msg)
+  {}
+  Init_BatteryStatus_ocv_estimate internal_resistance_estimate(::px4_msgs::msg::BatteryStatus::_internal_resistance_estimate_type arg)
+  {
+    msg_.internal_resistance_estimate = std::move(arg);
+    return Init_BatteryStatus_ocv_estimate(msg_);
+  }
+
+private:
+  ::px4_msgs::msg::BatteryStatus msg_;
+};
+
 class Init_BatteryStatus_nominal_voltage
 {
 public:
   explicit Init_BatteryStatus_nominal_voltage(::px4_msgs::msg::BatteryStatus & msg)
   : msg_(msg)
   {}
-  ::px4_msgs::msg::BatteryStatus nominal_voltage(::px4_msgs::msg::BatteryStatus::_nominal_voltage_type arg)
+  Init_BatteryStatus_internal_resistance_estimate nominal_voltage(::px4_msgs::msg::BatteryStatus::_nominal_voltage_type arg)
   {
     msg_.nominal_voltage = std::move(arg);
-    return std::move(msg_);
+    return Init_BatteryStatus_internal_resistance_estimate(msg_);
   }
 
 private:
@@ -565,48 +677,16 @@ private:
   ::px4_msgs::msg::BatteryStatus msg_;
 };
 
-class Init_BatteryStatus_current_filtered_a
-{
-public:
-  explicit Init_BatteryStatus_current_filtered_a(::px4_msgs::msg::BatteryStatus & msg)
-  : msg_(msg)
-  {}
-  Init_BatteryStatus_current_average_a current_filtered_a(::px4_msgs::msg::BatteryStatus::_current_filtered_a_type arg)
-  {
-    msg_.current_filtered_a = std::move(arg);
-    return Init_BatteryStatus_current_average_a(msg_);
-  }
-
-private:
-  ::px4_msgs::msg::BatteryStatus msg_;
-};
-
 class Init_BatteryStatus_current_a
 {
 public:
   explicit Init_BatteryStatus_current_a(::px4_msgs::msg::BatteryStatus & msg)
   : msg_(msg)
   {}
-  Init_BatteryStatus_current_filtered_a current_a(::px4_msgs::msg::BatteryStatus::_current_a_type arg)
+  Init_BatteryStatus_current_average_a current_a(::px4_msgs::msg::BatteryStatus::_current_a_type arg)
   {
     msg_.current_a = std::move(arg);
-    return Init_BatteryStatus_current_filtered_a(msg_);
-  }
-
-private:
-  ::px4_msgs::msg::BatteryStatus msg_;
-};
-
-class Init_BatteryStatus_voltage_filtered_v
-{
-public:
-  explicit Init_BatteryStatus_voltage_filtered_v(::px4_msgs::msg::BatteryStatus & msg)
-  : msg_(msg)
-  {}
-  Init_BatteryStatus_current_a voltage_filtered_v(::px4_msgs::msg::BatteryStatus::_voltage_filtered_v_type arg)
-  {
-    msg_.voltage_filtered_v = std::move(arg);
-    return Init_BatteryStatus_current_a(msg_);
+    return Init_BatteryStatus_current_average_a(msg_);
   }
 
 private:
@@ -619,10 +699,10 @@ public:
   explicit Init_BatteryStatus_voltage_v(::px4_msgs::msg::BatteryStatus & msg)
   : msg_(msg)
   {}
-  Init_BatteryStatus_voltage_filtered_v voltage_v(::px4_msgs::msg::BatteryStatus::_voltage_v_type arg)
+  Init_BatteryStatus_current_a voltage_v(::px4_msgs::msg::BatteryStatus::_voltage_v_type arg)
   {
     msg_.voltage_v = std::move(arg);
-    return Init_BatteryStatus_voltage_filtered_v(msg_);
+    return Init_BatteryStatus_current_a(msg_);
   }
 
 private:

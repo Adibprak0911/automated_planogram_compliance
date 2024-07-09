@@ -46,7 +46,6 @@ struct EstimatorStatus_
       this->filter_fault_flags = 0ul;
       this->pos_horiz_accuracy = 0.0f;
       this->pos_vert_accuracy = 0.0f;
-      this->innovation_check_flags = 0;
       this->mag_test_ratio = 0.0f;
       this->vel_test_ratio = 0.0f;
       this->pos_test_ratio = 0.0f;
@@ -93,7 +92,6 @@ struct EstimatorStatus_
       this->filter_fault_flags = 0ul;
       this->pos_horiz_accuracy = 0.0f;
       this->pos_vert_accuracy = 0.0f;
-      this->innovation_check_flags = 0;
       this->mag_test_ratio = 0.0f;
       this->vel_test_ratio = 0.0f;
       this->pos_test_ratio = 0.0f;
@@ -151,9 +149,6 @@ struct EstimatorStatus_
   using _pos_vert_accuracy_type =
     float;
   _pos_vert_accuracy_type pos_vert_accuracy;
-  using _innovation_check_flags_type =
-    uint16_t;
-  _innovation_check_flags_type innovation_check_flags;
   using _mag_test_ratio_type =
     float;
   _mag_test_ratio_type mag_test_ratio;
@@ -289,12 +284,6 @@ struct EstimatorStatus_
     const float & _arg)
   {
     this->pos_vert_accuracy = _arg;
-    return *this;
-  }
-  Type & set__innovation_check_flags(
-    const uint16_t & _arg)
-  {
-    this->innovation_check_flags = _arg;
     return *this;
   }
   Type & set__mag_test_ratio(
@@ -614,9 +603,6 @@ struct EstimatorStatus_
       return false;
     }
     if (this->pos_vert_accuracy != other.pos_vert_accuracy) {
-      return false;
-    }
-    if (this->innovation_check_flags != other.innovation_check_flags) {
       return false;
     }
     if (this->mag_test_ratio != other.mag_test_ratio) {

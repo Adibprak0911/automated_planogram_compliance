@@ -1,0 +1,13 @@
+# Target labels
+ microxrcedds_client
+# Source files and their labels
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/CMakeFiles/microxrcedds_client
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/CMakeFiles/microxrcedds_client.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/CMakeFiles/microxrcedds_client-complete.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-build.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-configure.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-download.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-install.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-mkdir.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-patch.rule
+/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-stamp/microxrcedds_client-update.rule

@@ -92,13 +92,6 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: innovation_check_flags
-  {
-    out << "innovation_check_flags: ";
-    rosidl_generator_traits::value_to_yaml(msg.innovation_check_flags, out);
-    out << ", ";
-  }
-
   // member: mag_test_ratio
   {
     out << "mag_test_ratio: ";
@@ -394,16 +387,6 @@ inline void to_block_style_yaml(
     }
     out << "pos_vert_accuracy: ";
     rosidl_generator_traits::value_to_yaml(msg.pos_vert_accuracy, out);
-    out << "\n";
-  }
-
-  // member: innovation_check_flags
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "innovation_check_flags: ";
-    rosidl_generator_traits::value_to_yaml(msg.innovation_check_flags, out);
     out << "\n";
   }
 

@@ -17,6 +17,51 @@ extern "C"
 
 // Constants defined in the message
 
+/// Constant 'FIX_TYPE_NONE'.
+/**
+  * Value 0 is also valid to represent no fix.
+ */
+enum
+{
+  px4_msgs__msg__SensorGps__FIX_TYPE_NONE = 1
+};
+
+/// Constant 'FIX_TYPE_2D'.
+enum
+{
+  px4_msgs__msg__SensorGps__FIX_TYPE_2D = 2
+};
+
+/// Constant 'FIX_TYPE_3D'.
+enum
+{
+  px4_msgs__msg__SensorGps__FIX_TYPE_3D = 3
+};
+
+/// Constant 'FIX_TYPE_RTCM_CODE_DIFFERENTIAL'.
+enum
+{
+  px4_msgs__msg__SensorGps__FIX_TYPE_RTCM_CODE_DIFFERENTIAL = 4
+};
+
+/// Constant 'FIX_TYPE_RTK_FLOAT'.
+enum
+{
+  px4_msgs__msg__SensorGps__FIX_TYPE_RTK_FLOAT = 5
+};
+
+/// Constant 'FIX_TYPE_RTK_FIXED'.
+enum
+{
+  px4_msgs__msg__SensorGps__FIX_TYPE_RTK_FIXED = 6
+};
+
+/// Constant 'FIX_TYPE_EXTRAPOLATED'.
+enum
+{
+  px4_msgs__msg__SensorGps__FIX_TYPE_EXTRAPOLATED = 8
+};
+
 /// Constant 'JAMMING_STATE_UNKNOWN'.
 enum
 {
@@ -107,7 +152,7 @@ typedef struct px4_msgs__msg__SensorGps
   float s_variance_m_s;
   /// GPS course accuracy estimate, (radians)
   float c_variance_rad;
-  /// 0-1: no fix, 2: 2D fix, 3: 3D fix, 4: RTCM code differential, 5: Real-Time Kinematic, float, 6: Real-Time Kinematic, fixed, 8: Extrapolated. Some applications will not use the value of this field unless it is at least two, so always correctly fill in the fix.
+  /// Some applications will not use the value of this field unless it is at least two, so always correctly fill in the fix.
   uint8_t fix_type;
   /// GPS horizontal position accuracy (metres)
   float eph;

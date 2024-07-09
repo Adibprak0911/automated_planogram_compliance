@@ -41,9 +41,7 @@ struct BatteryStatus_
       this->timestamp = 0ull;
       this->connected = false;
       this->voltage_v = 0.0f;
-      this->voltage_filtered_v = 0.0f;
       this->current_a = 0.0f;
-      this->current_filtered_a = 0.0f;
       this->current_average_a = 0.0f;
       this->discharged_mah = 0.0f;
       this->remaining = 0.0f;
@@ -78,6 +76,13 @@ struct BatteryStatus_
       this->average_time_to_full = 0;
       this->over_discharge_count = 0;
       this->nominal_voltage = 0.0f;
+      this->internal_resistance_estimate = 0.0f;
+      this->ocv_estimate = 0.0f;
+      this->ocv_estimate_filtered = 0.0f;
+      this->volt_based_soc_estimate = 0.0f;
+      this->voltage_prediction = 0.0f;
+      this->prediction_error = 0.0f;
+      this->estimation_covariance_norm = 0.0f;
     }
   }
 
@@ -90,9 +95,7 @@ struct BatteryStatus_
       this->timestamp = 0ull;
       this->connected = false;
       this->voltage_v = 0.0f;
-      this->voltage_filtered_v = 0.0f;
       this->current_a = 0.0f;
-      this->current_filtered_a = 0.0f;
       this->current_average_a = 0.0f;
       this->discharged_mah = 0.0f;
       this->remaining = 0.0f;
@@ -127,6 +130,13 @@ struct BatteryStatus_
       this->average_time_to_full = 0;
       this->over_discharge_count = 0;
       this->nominal_voltage = 0.0f;
+      this->internal_resistance_estimate = 0.0f;
+      this->ocv_estimate = 0.0f;
+      this->ocv_estimate_filtered = 0.0f;
+      this->volt_based_soc_estimate = 0.0f;
+      this->voltage_prediction = 0.0f;
+      this->prediction_error = 0.0f;
+      this->estimation_covariance_norm = 0.0f;
     }
   }
 
@@ -140,15 +150,9 @@ struct BatteryStatus_
   using _voltage_v_type =
     float;
   _voltage_v_type voltage_v;
-  using _voltage_filtered_v_type =
-    float;
-  _voltage_filtered_v_type voltage_filtered_v;
   using _current_a_type =
     float;
   _current_a_type current_a;
-  using _current_filtered_a_type =
-    float;
-  _current_filtered_a_type current_filtered_a;
   using _current_average_a_type =
     float;
   _current_average_a_type current_average_a;
@@ -251,6 +255,27 @@ struct BatteryStatus_
   using _nominal_voltage_type =
     float;
   _nominal_voltage_type nominal_voltage;
+  using _internal_resistance_estimate_type =
+    float;
+  _internal_resistance_estimate_type internal_resistance_estimate;
+  using _ocv_estimate_type =
+    float;
+  _ocv_estimate_type ocv_estimate;
+  using _ocv_estimate_filtered_type =
+    float;
+  _ocv_estimate_filtered_type ocv_estimate_filtered;
+  using _volt_based_soc_estimate_type =
+    float;
+  _volt_based_soc_estimate_type volt_based_soc_estimate;
+  using _voltage_prediction_type =
+    float;
+  _voltage_prediction_type voltage_prediction;
+  using _prediction_error_type =
+    float;
+  _prediction_error_type prediction_error;
+  using _estimation_covariance_norm_type =
+    float;
+  _estimation_covariance_norm_type estimation_covariance_norm;
 
   // setters for named parameter idiom
   Type & set__timestamp(
@@ -271,22 +296,10 @@ struct BatteryStatus_
     this->voltage_v = _arg;
     return *this;
   }
-  Type & set__voltage_filtered_v(
-    const float & _arg)
-  {
-    this->voltage_filtered_v = _arg;
-    return *this;
-  }
   Type & set__current_a(
     const float & _arg)
   {
     this->current_a = _arg;
-    return *this;
-  }
-  Type & set__current_filtered_a(
-    const float & _arg)
-  {
-    this->current_filtered_a = _arg;
     return *this;
   }
   Type & set__current_average_a(
@@ -493,6 +506,48 @@ struct BatteryStatus_
     this->nominal_voltage = _arg;
     return *this;
   }
+  Type & set__internal_resistance_estimate(
+    const float & _arg)
+  {
+    this->internal_resistance_estimate = _arg;
+    return *this;
+  }
+  Type & set__ocv_estimate(
+    const float & _arg)
+  {
+    this->ocv_estimate = _arg;
+    return *this;
+  }
+  Type & set__ocv_estimate_filtered(
+    const float & _arg)
+  {
+    this->ocv_estimate_filtered = _arg;
+    return *this;
+  }
+  Type & set__volt_based_soc_estimate(
+    const float & _arg)
+  {
+    this->volt_based_soc_estimate = _arg;
+    return *this;
+  }
+  Type & set__voltage_prediction(
+    const float & _arg)
+  {
+    this->voltage_prediction = _arg;
+    return *this;
+  }
+  Type & set__prediction_error(
+    const float & _arg)
+  {
+    this->prediction_error = _arg;
+    return *this;
+  }
+  Type & set__estimation_covariance_norm(
+    const float & _arg)
+  {
+    this->estimation_covariance_norm = _arg;
+    return *this;
+  }
 
   // constant declarations
   static constexpr uint8_t BATTERY_SOURCE_POWER_MODULE =
@@ -599,13 +654,7 @@ struct BatteryStatus_
     if (this->voltage_v != other.voltage_v) {
       return false;
     }
-    if (this->voltage_filtered_v != other.voltage_filtered_v) {
-      return false;
-    }
     if (this->current_a != other.current_a) {
-      return false;
-    }
-    if (this->current_filtered_a != other.current_filtered_a) {
       return false;
     }
     if (this->current_average_a != other.current_average_a) {
@@ -708,6 +757,27 @@ struct BatteryStatus_
       return false;
     }
     if (this->nominal_voltage != other.nominal_voltage) {
+      return false;
+    }
+    if (this->internal_resistance_estimate != other.internal_resistance_estimate) {
+      return false;
+    }
+    if (this->ocv_estimate != other.ocv_estimate) {
+      return false;
+    }
+    if (this->ocv_estimate_filtered != other.ocv_estimate_filtered) {
+      return false;
+    }
+    if (this->volt_based_soc_estimate != other.volt_based_soc_estimate) {
+      return false;
+    }
+    if (this->voltage_prediction != other.voltage_prediction) {
+      return false;
+    }
+    if (this->prediction_error != other.prediction_error) {
+      return false;
+    }
+    if (this->estimation_covariance_norm != other.estimation_covariance_norm) {
       return false;
     }
     return true;

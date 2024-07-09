@@ -120,6 +120,8 @@ msg/FollowTargetEstimator.idl
 msg/FollowTargetEstimator.msg
 msg/FollowTargetStatus.idl
 msg/FollowTargetStatus.msg
+msg/FuelTankStatus.idl
+msg/FuelTankStatus.msg
 msg/GeneratorStatus.idl
 msg/GeneratorStatus.msg
 msg/GeofenceResult.idl

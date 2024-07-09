@@ -46,24 +46,10 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: voltage_filtered_v
-  {
-    out << "voltage_filtered_v: ";
-    rosidl_generator_traits::value_to_yaml(msg.voltage_filtered_v, out);
-    out << ", ";
-  }
-
   // member: current_a
   {
     out << "current_a: ";
     rosidl_generator_traits::value_to_yaml(msg.current_a, out);
-    out << ", ";
-  }
-
-  // member: current_filtered_a
-  {
-    out << "current_filtered_a: ";
-    rosidl_generator_traits::value_to_yaml(msg.current_filtered_a, out);
     out << ", ";
   }
 
@@ -313,6 +299,55 @@ inline void to_flow_style_yaml(
   {
     out << "nominal_voltage: ";
     rosidl_generator_traits::value_to_yaml(msg.nominal_voltage, out);
+    out << ", ";
+  }
+
+  // member: internal_resistance_estimate
+  {
+    out << "internal_resistance_estimate: ";
+    rosidl_generator_traits::value_to_yaml(msg.internal_resistance_estimate, out);
+    out << ", ";
+  }
+
+  // member: ocv_estimate
+  {
+    out << "ocv_estimate: ";
+    rosidl_generator_traits::value_to_yaml(msg.ocv_estimate, out);
+    out << ", ";
+  }
+
+  // member: ocv_estimate_filtered
+  {
+    out << "ocv_estimate_filtered: ";
+    rosidl_generator_traits::value_to_yaml(msg.ocv_estimate_filtered, out);
+    out << ", ";
+  }
+
+  // member: volt_based_soc_estimate
+  {
+    out << "volt_based_soc_estimate: ";
+    rosidl_generator_traits::value_to_yaml(msg.volt_based_soc_estimate, out);
+    out << ", ";
+  }
+
+  // member: voltage_prediction
+  {
+    out << "voltage_prediction: ";
+    rosidl_generator_traits::value_to_yaml(msg.voltage_prediction, out);
+    out << ", ";
+  }
+
+  // member: prediction_error
+  {
+    out << "prediction_error: ";
+    rosidl_generator_traits::value_to_yaml(msg.prediction_error, out);
+    out << ", ";
+  }
+
+  // member: estimation_covariance_norm
+  {
+    out << "estimation_covariance_norm: ";
+    rosidl_generator_traits::value_to_yaml(msg.estimation_covariance_norm, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -351,16 +386,6 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: voltage_filtered_v
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "voltage_filtered_v: ";
-    rosidl_generator_traits::value_to_yaml(msg.voltage_filtered_v, out);
-    out << "\n";
-  }
-
   // member: current_a
   {
     if (indentation > 0) {
@@ -368,16 +393,6 @@ inline void to_block_style_yaml(
     }
     out << "current_a: ";
     rosidl_generator_traits::value_to_yaml(msg.current_a, out);
-    out << "\n";
-  }
-
-  // member: current_filtered_a
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    out << "current_filtered_a: ";
-    rosidl_generator_traits::value_to_yaml(msg.current_filtered_a, out);
     out << "\n";
   }
 
@@ -728,6 +743,76 @@ inline void to_block_style_yaml(
     }
     out << "nominal_voltage: ";
     rosidl_generator_traits::value_to_yaml(msg.nominal_voltage, out);
+    out << "\n";
+  }
+
+  // member: internal_resistance_estimate
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "internal_resistance_estimate: ";
+    rosidl_generator_traits::value_to_yaml(msg.internal_resistance_estimate, out);
+    out << "\n";
+  }
+
+  // member: ocv_estimate
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "ocv_estimate: ";
+    rosidl_generator_traits::value_to_yaml(msg.ocv_estimate, out);
+    out << "\n";
+  }
+
+  // member: ocv_estimate_filtered
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "ocv_estimate_filtered: ";
+    rosidl_generator_traits::value_to_yaml(msg.ocv_estimate_filtered, out);
+    out << "\n";
+  }
+
+  // member: volt_based_soc_estimate
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "volt_based_soc_estimate: ";
+    rosidl_generator_traits::value_to_yaml(msg.volt_based_soc_estimate, out);
+    out << "\n";
+  }
+
+  // member: voltage_prediction
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "voltage_prediction: ";
+    rosidl_generator_traits::value_to_yaml(msg.voltage_prediction, out);
+    out << "\n";
+  }
+
+  // member: prediction_error
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "prediction_error: ";
+    rosidl_generator_traits::value_to_yaml(msg.prediction_error, out);
+    out << "\n";
+  }
+
+  // member: estimation_covariance_norm
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "estimation_covariance_norm: ";
+    rosidl_generator_traits::value_to_yaml(msg.estimation_covariance_norm, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

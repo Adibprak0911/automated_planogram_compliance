@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/ucdr"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/ucdr.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/CMakeFiles/ucdr-complete.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-build.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-configure.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-download.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-install.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-patch.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance/Micro-XRCE-DDS-Agent/build/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/src/ucdr-stamp/ucdr-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ucdr"
+		],
+		"name" : "ucdr"
+	}
+}

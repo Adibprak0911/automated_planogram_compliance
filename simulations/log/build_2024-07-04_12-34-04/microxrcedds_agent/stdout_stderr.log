@@ -1,0 +1,332 @@
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/inlab22/Documents/automated_planogram_compliance/simulations/build/microxrcedds_agent
+[ 12%] [34m[1mCreating directories for 'uagent'[0m
+[ 25%] [34m[1mNo download step for 'uagent'[0m
+[ 37%] [34m[1mNo update step for 'uagent'[0m
+[ 50%] [34m[1mNo patch step for 'uagent'[0m
+[ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+loading initial cache file /home/inlab22/Documents/automated_planogram_compliance/simulations/build/microxrcedds_agent/uagent-prefix/tmp/uagent-cache-.cmake
+-- Setting build type to 'Release' as none was specified.
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (tinyxml2)
+  does not match the name of the calling package (TinyXML2).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+  /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+  CMakeLists.txt:153 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/inlab22/Documents/automated_planogram_compliance/simulations/build/microxrcedds_agent
+[ 75%] [34m[1mPerforming build step for 'uagent'[0m
+[  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/p2p/AgentDiscovererLinux.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/ced/CedEntities.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/types/TypeObject.h:18[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/QosPolicies.hpp:36[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/topic/TopicDataType.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/TopicDataType.h:22[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/include/uxr/agent/types/TopicPubSubType.hpp:18[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/types/TopicPubSubType.cpp:15[m[K:
+[01m[K/usr/local/include/fastcdr/xcdr/MemberId.hpp:67:23:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+   67 | static const MemberId [01;31m[KMEMBER_ID_INVALID[m[K {};
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/types/TopicPubSubType.cpp:17[m[K:
+[01m[K/usr/local/include/fastcdr/Cdr.h:[m[K In member function ‘[01m[Keprosima::fastcdr::Cdr& eprosima::fastcdr::Cdr::operator<<(const _T&)[m[K’:
+[01m[K/usr/local/include/fastcdr/Cdr.h:328:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Keprosima::fastcdr::MemberId[m[K’)
+  328 |         if (MEMBER_ID_INVALID [01;31m[K==[m[K [32m[Knext_member_id_[m[K)
+      |                               [01;31m[K^~[m[K [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[K|[m[K
+      |                                  [32m[Keprosima::fastcdr::MemberId[m[K
+In file included from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/all_common.h:30[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/ParameterTypes.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/QosPolicies.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/topic/TopicDataType.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/TopicDataType.h:22[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/include/uxr/agent/types/TopicPubSubType.hpp:18[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/types/TopicPubSubType.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/Time_t.h:475:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool eprosima::fastrtps::operator==(const eprosima::fastrtps::Time_t&, const eprosima::fastrtps::Time_t&)[m[K’
+  475 | static inline bool [01;36m[Koperator[m[K ==(
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/Time_t.h:477:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Keprosima::fastcdr::MemberId[m[K’ to ‘[01m[Kconst eprosima::fastrtps::Time_t&[m[K’
+  477 |         [01;36m[Kconst Time_t& t2[m[K)
+      |         [01;36m[K~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/builtin/data/ContentFilterProperty.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/RTPSParticipantAllocationAttributes.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/QosPolicies.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/topic/TopicDataType.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/TopicDataType.h:22[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/include/uxr/agent/types/TopicPubSubType.hpp:18[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/types/TopicPubSubType.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/fastrtps/fastrtps/utils/collections/ResourceLimitedContainerConfig.hpp:80:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool eprosima::fastrtps::operator==(const eprosima::fastrtps::ResourceLimitedContainerConfig&, const eprosima::fastrtps::ResourceLimitedContainerConfig&)[m[K’
+   80 | inline bool [01;36m[Koperator[m[K == (
+      |             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/fastrtps/fastrtps/utils/collections/ResourceLimitedContainerConfig.hpp:82:47:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Keprosima::fastcdr::MemberId[m[K’ to ‘[01m[Kconst eprosima::fastrtps::ResourceLimitedContainerConfig&[m[K’
+   82 |         [01;36m[Kconst ResourceLimitedContainerConfig& rhs[m[K)
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/types/TopicPubSubType.cpp:17[m[K:
+[01m[K/usr/local/include/fastcdr/Cdr.h:[m[K In member function ‘[01m[Keprosima::fastcdr::Cdr& eprosima::fastcdr::Cdr::operator>>(_T&)[m[K’:
+[01m[K/usr/local/include/fastcdr/Cdr.h:358:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Keprosima::fastcdr::MemberId[m[K’)
+  358 |         if (MEMBER_ID_INVALID [01;31m[K==[m[K [32m[Knext_member_id_[m[K)
+      |                               [01;31m[K^~[m[K [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[K|[m[K
+      |                                  [32m[Keprosima::fastcdr::MemberId[m[K
+In file included from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/all_common.h:30[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/ParameterTypes.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/QosPolicies.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/topic/TopicDataType.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/TopicDataType.h:22[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/include/uxr/agent/types/TopicPubSubType.hpp:18[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/types/TopicPubSubType.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/Time_t.h:475:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool eprosima::fastrtps::operator==(const eprosima::fastrtps::Time_t&, const eprosima::fastrtps::Time_t&)[m[K’
+  475 | static inline bool [01;36m[Koperator[m[K ==(
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/Time_t.h:477:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Keprosima::fastcdr::MemberId[m[K’ to ‘[01m[Kconst eprosima::fastrtps::Time_t&[m[K’
+  477 |         [01;36m[Kconst Time_t& t2[m[K)
+      |         [01;36m[K~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/builtin/data/ContentFilterProperty.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/RTPSParticipantAllocationAttributes.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/QosPolicies.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/topic/TopicDataType.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/TopicDataType.h:22[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/include/uxr/agent/types/TopicPubSubType.hpp:18[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/types/TopicPubSubType.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/fastrtps/fastrtps/utils/collections/ResourceLimitedContainerConfig.hpp:80:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool eprosima::fastrtps::operator==(const eprosima::fastrtps::ResourceLimitedContainerConfig&, const eprosima::fastrtps::ResourceLimitedContainerConfig&)[m[K’
+   80 | inline bool [01;36m[Koperator[m[K == (
+      |             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/fastrtps/fastrtps/utils/collections/ResourceLimitedContainerConfig.hpp:82:47:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Keprosima::fastcdr::MemberId[m[K’ to ‘[01m[Kconst eprosima::fastrtps::ResourceLimitedContainerConfig&[m[K’
+   82 |         [01;36m[Kconst ResourceLimitedContainerConfig& rhs[m[K)
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[ 88%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/ced/CedMiddleware.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/types/TypeObject.h:18[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/QosPolicies.hpp:36[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/builtin/topic/ParticipantBuiltinTopicData.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/domain/DomainParticipant.hpp:28[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:19[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/middleware/fastdds/FastDDSEntities.cpp:15[m[K:
+[01m[K/usr/local/include/fastcdr/xcdr/MemberId.hpp:67:23:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+   67 | static const MemberId [01;31m[KMEMBER_ID_INVALID[m[K {};
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/middleware/fastdds/FastDDSEntities.cpp:22[m[K:
+[01m[K/usr/local/include/fastcdr/Cdr.h:[m[K In member function ‘[01m[Keprosima::fastcdr::Cdr& eprosima::fastcdr::Cdr::operator<<(const _T&)[m[K’:
+[01m[K/usr/local/include/fastcdr/Cdr.h:328:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Keprosima::fastcdr::MemberId[m[K’)
+  328 |         if (MEMBER_ID_INVALID [01;31m[K==[m[K [32m[Knext_member_id_[m[K)
+      |                               [01;31m[K^~[m[K [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[K|[m[K
+      |                                  [32m[Keprosima::fastcdr::MemberId[m[K
+In file included from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/all_common.h:30[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/ParameterTypes.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/QosPolicies.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/builtin/topic/ParticipantBuiltinTopicData.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/domain/DomainParticipant.hpp:28[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:19[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/middleware/fastdds/FastDDSEntities.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/Time_t.h:475:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool eprosima::fastrtps::operator==(const eprosima::fastrtps::Time_t&, const eprosima::fastrtps::Time_t&)[m[K’
+  475 | static inline bool [01;36m[Koperator[m[K ==(
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/Time_t.h:477:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Keprosima::fastcdr::MemberId[m[K’ to ‘[01m[Kconst eprosima::fastrtps::Time_t&[m[K’
+  477 |         [01;36m[Kconst Time_t& t2[m[K)
+      |         [01;36m[K~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/builtin/data/ContentFilterProperty.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/RTPSParticipantAllocationAttributes.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/QosPolicies.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/builtin/topic/ParticipantBuiltinTopicData.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/domain/DomainParticipant.hpp:28[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:19[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/middleware/fastdds/FastDDSEntities.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/fastrtps/fastrtps/utils/collections/ResourceLimitedContainerConfig.hpp:80:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool eprosima::fastrtps::operator==(const eprosima::fastrtps::ResourceLimitedContainerConfig&, const eprosima::fastrtps::ResourceLimitedContainerConfig&)[m[K’
+   80 | inline bool [01;36m[Koperator[m[K == (
+      |             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/fastrtps/fastrtps/utils/collections/ResourceLimitedContainerConfig.hpp:82:47:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Keprosima::fastcdr::MemberId[m[K’ to ‘[01m[Kconst eprosima::fastrtps::ResourceLimitedContainerConfig&[m[K’
+   82 |         [01;36m[Kconst ResourceLimitedContainerConfig& rhs[m[K)
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/middleware/fastdds/FastDDSEntities.cpp:22[m[K:
+[01m[K/usr/local/include/fastcdr/Cdr.h:[m[K In member function ‘[01m[Keprosima::fastcdr::Cdr& eprosima::fastcdr::Cdr::operator>>(_T&)[m[K’:
+[01m[K/usr/local/include/fastcdr/Cdr.h:358:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Keprosima::fastcdr::MemberId[m[K’)
+  358 |         if (MEMBER_ID_INVALID [01;31m[K==[m[K [32m[Knext_member_id_[m[K)
+      |                               [01;31m[K^~[m[K [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[K|[m[K
+      |                                  [32m[Keprosima::fastcdr::MemberId[m[K
+In file included from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/all_common.h:30[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/ParameterTypes.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/QosPolicies.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/builtin/topic/ParticipantBuiltinTopicData.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/domain/DomainParticipant.hpp:28[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:19[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/middleware/fastdds/FastDDSEntities.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/Time_t.h:475:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool eprosima::fastrtps::operator==(const eprosima::fastrtps::Time_t&, const eprosima::fastrtps::Time_t&)[m[K’
+  475 | static inline bool [01;36m[Koperator[m[K ==(
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/Time_t.h:477:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Keprosima::fastcdr::MemberId[m[K’ to ‘[01m[Kconst eprosima::fastrtps::Time_t&[m[K’
+  477 |         [01;36m[Kconst Time_t& t2[m[K)
+      |         [01;36m[K~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/builtin/data/ContentFilterProperty.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/RTPSParticipantAllocationAttributes.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/QosPolicies.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/builtin/topic/ParticipantBuiltinTopicData.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/domain/DomainParticipant.hpp:28[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:19[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/middleware/fastdds/FastDDSEntities.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/fastrtps/fastrtps/utils/collections/ResourceLimitedContainerConfig.hpp:80:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool eprosima::fastrtps::operator==(const eprosima::fastrtps::ResourceLimitedContainerConfig&, const eprosima::fastrtps::ResourceLimitedContainerConfig&)[m[K’
+   80 | inline bool [01;36m[Koperator[m[K == (
+      |             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/fastrtps/fastrtps/utils/collections/ResourceLimitedContainerConfig.hpp:82:47:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Keprosima::fastcdr::MemberId[m[K’ to ‘[01m[Kconst eprosima::fastrtps::ResourceLimitedContainerConfig&[m[K’
+   82 |         [01;36m[Kconst ResourceLimitedContainerConfig& rhs[m[K)
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:580: CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o] Error 1
+gmake[5]: *** Waiting for unfinished jobs....
+In file included from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/types/TypeObject.h:18[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/QosPolicies.hpp:36[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/qos/QosPolicies.h:23[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/builtin/data/ParticipantProxyData.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/participant/ParticipantDiscoveryInfo.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/participant/ParticipantListener.h:23[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fast/FastEntities.hpp:18[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/middleware/fast/FastEntities.cpp:15[m[K:
+[01m[K/usr/local/include/fastcdr/xcdr/MemberId.hpp:67:23:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+   67 | static const MemberId [01;31m[KMEMBER_ID_INVALID[m[K {};
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/middleware/fast/FastEntities.cpp:25[m[K:
+[01m[K/usr/local/include/fastcdr/Cdr.h:[m[K In member function ‘[01m[Keprosima::fastcdr::Cdr& eprosima::fastcdr::Cdr::operator<<(const _T&)[m[K’:
+[01m[K/usr/local/include/fastcdr/Cdr.h:328:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Keprosima::fastcdr::MemberId[m[K’)
+  328 |         if (MEMBER_ID_INVALID [01;31m[K==[m[K [32m[Knext_member_id_[m[K)
+      |                               [01;31m[K^~[m[K [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[K|[m[K
+      |                                  [32m[Keprosima::fastcdr::MemberId[m[K
+In file included from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/all_common.h:30[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/ParameterTypes.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/QosPolicies.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/qos/QosPolicies.h:23[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/builtin/data/ParticipantProxyData.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/participant/ParticipantDiscoveryInfo.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/participant/ParticipantListener.h:23[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fast/FastEntities.hpp:18[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/middleware/fast/FastEntities.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/Time_t.h:475:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool eprosima::fastrtps::operator==(const eprosima::fastrtps::Time_t&, const eprosima::fastrtps::Time_t&)[m[K’
+  475 | static inline bool [01;36m[Koperator[m[K ==(
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/Time_t.h:477:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Keprosima::fastcdr::MemberId[m[K’ to ‘[01m[Kconst eprosima::fastrtps::Time_t&[m[K’
+  477 |         [01;36m[Kconst Time_t& t2[m[K)
+      |         [01;36m[K~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/builtin/data/ContentFilterProperty.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/RTPSParticipantAllocationAttributes.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/QosPolicies.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/qos/QosPolicies.h:23[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/builtin/data/ParticipantProxyData.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/participant/ParticipantDiscoveryInfo.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/participant/ParticipantListener.h:23[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fast/FastEntities.hpp:18[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/middleware/fast/FastEntities.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/fastrtps/fastrtps/utils/collections/ResourceLimitedContainerConfig.hpp:80:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool eprosima::fastrtps::operator==(const eprosima::fastrtps::ResourceLimitedContainerConfig&, const eprosima::fastrtps::ResourceLimitedContainerConfig&)[m[K’
+   80 | inline bool [01;36m[Koperator[m[K == (
+      |             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/fastrtps/fastrtps/utils/collections/ResourceLimitedContainerConfig.hpp:82:47:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Keprosima::fastcdr::MemberId[m[K’ to ‘[01m[Kconst eprosima::fastrtps::ResourceLimitedContainerConfig&[m[K’
+   82 |         [01;36m[Kconst ResourceLimitedContainerConfig& rhs[m[K)
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/middleware/fast/FastEntities.cpp:25[m[K:
+[01m[K/usr/local/include/fastcdr/Cdr.h:[m[K In member function ‘[01m[Keprosima::fastcdr::Cdr& eprosima::fastcdr::Cdr::operator>>(_T&)[m[K’:
+[01m[K/usr/local/include/fastcdr/Cdr.h:358:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Keprosima::fastcdr::MemberId[m[K’)
+  358 |         if (MEMBER_ID_INVALID [01;31m[K==[m[K [32m[Knext_member_id_[m[K)
+      |                               [01;31m[K^~[m[K [32m[K~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[K|[m[K
+      |                                  [32m[Keprosima::fastcdr::MemberId[m[K
+In file included from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/all_common.h:30[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/ParameterTypes.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/QosPolicies.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/qos/QosPolicies.h:23[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/builtin/data/ParticipantProxyData.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/participant/ParticipantDiscoveryInfo.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/participant/ParticipantListener.h:23[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fast/FastEntities.hpp:18[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/middleware/fast/FastEntities.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/Time_t.h:475:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool eprosima::fastrtps::operator==(const eprosima::fastrtps::Time_t&, const eprosima::fastrtps::Time_t&)[m[K’
+  475 | static inline bool [01;36m[Koperator[m[K ==(
+      |                    [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/common/Time_t.h:477:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Keprosima::fastcdr::MemberId[m[K’ to ‘[01m[Kconst eprosima::fastrtps::Time_t&[m[K’
+  477 |         [01;36m[Kconst Time_t& t2[m[K)
+      |         [01;36m[K~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/builtin/data/ContentFilterProperty.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/attributes/RTPSParticipantAllocationAttributes.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/dds/core/policy/QosPolicies.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/qos/QosPolicies.h:23[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/builtin/data/ParticipantProxyData.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastdds/rtps/participant/ParticipantDiscoveryInfo.h:24[m[K,
+                 from [01m[K/opt/ros/humble/include/fastrtps/fastrtps/participant/ParticipantListener.h:23[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fast/FastEntities.hpp:18[m[K,
+                 from [01m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent/src/cpp/middleware/fast/FastEntities.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/fastrtps/fastrtps/utils/collections/ResourceLimitedContainerConfig.hpp:80:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool eprosima::fastrtps::operator==(const eprosima::fastrtps::ResourceLimitedContainerConfig&, const eprosima::fastrtps::ResourceLimitedContainerConfig&)[m[K’
+   80 | inline bool [01;36m[Koperator[m[K == (
+      |             [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/fastrtps/fastrtps/utils/collections/ResourceLimitedContainerConfig.hpp:82:47:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Keprosima::fastcdr::MemberId[m[K’ to ‘[01m[Kconst eprosima::fastrtps::ResourceLimitedContainerConfig&[m[K’
+   82 |         [01;36m[Kconst ResourceLimitedContainerConfig& rhs[m[K)
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:636: CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o] Error 1
+gmake[5]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:608: CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o] Error 1
+gmake[4]: *** [CMakeFiles/Makefile2:85: CMakeFiles/microxrcedds_agent.dir/all] Error 2
+gmake[3]: *** [Makefile:136: all] Error 2
+gmake[2]: *** [CMakeFiles/uagent.dir/build.make:86: uagent-prefix/src/uagent-stamp/uagent-build] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/uagent.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

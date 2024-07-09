@@ -185,23 +185,23 @@ def get_all_words():
 
 # Main function to demonstrate usage
 if __name__ == "__main__":
-    create_database()
+    # create_database()
     
-    # Adding sample data
-    # add_product_flavour('lays', 'original')
-    # add_product_flavour('lays', 'barbecue')
-    # add_product_flavour('lays', 'sour cream & onion')
-    # add_product_flavour('doritos', 'nacho cheese')
-    # add_product_flavour('doritos', 'cool ranch')
-    # add_product_flavour('twister', 'orange')
-    # add_product_flavour('twister', 'raspberry')
-    # add_product_flavour('twister', 'grape')
-    # add_product_flavour('twister', 'banana')
+#     # Adding sample data
+#     add_product_flavour('lays', 'original')
+#     add_product_flavour('lays', 'barbecue')
+#     add_product_flavour('lays', 'sour cream & onion')
+#     add_product_flavour('doritos', 'nacho cheese')
+#     add_product_flavour('doritos', 'cool ranch')
+#     add_product_flavour('twister', 'orange')
+#     add_product_flavour('twister', 'raspberry')
+#    # get_flavours('twister')
+#     add_product_flavour('hersheys', 'chocolate')
+#     add_product_flavour('hersheys', 'vanilla')
+#     add_product_flavour('twister', 'grape')
+#     add_product_flavour('twister', 'banana')
     
-    # Retrieving flavours
-    # get_flavours('twister')
-    # add_product_flavour('hersheys', 'chocolate')
-    # add_product_flavour('hersheys', 'vanilla')
-    # add_product_flavour('hersheys', 'caramel')
-    # get_all_words()
-    get_flavours('hersheys')
+#     # Retrieving flavours
+#     add_product_flavour('hersheys', 'caramel')
+#     # get_all_words()
+      get_flavours('hersheys')

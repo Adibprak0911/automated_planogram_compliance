@@ -1,0 +1,8 @@
+cflib>=0.1.6
+future==0.16.0
+lxml==4.1.1
+numpy>=1.12
+pymavlink==2.2.8
+utm==0.4
+uvloop==0.9.1
+websockets==4.0.1

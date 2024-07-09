@@ -144,7 +144,7 @@ def list_image_files(folder_path):
     
     return image_files
 
-folder_path = 'image_processing_testing/text_detection/identify_all_bounding/test'
+folder_path = 'image_processing_testing/text_detection/identify_all_bounding/images'
 
 image_files = list_image_files(folder_path)
 print(image_files)
@@ -155,7 +155,7 @@ if not image_files:
 else:
     for i in range(len(image_files)):
         image = folder_path + '/' + image_files[i]
-        reader = easyocr.Reader(['en'], gpu=False)
+        reader = easyocr.Reader(['en'], gpu=True)
         result = reader.readtext(image)
         print(len(result))
 

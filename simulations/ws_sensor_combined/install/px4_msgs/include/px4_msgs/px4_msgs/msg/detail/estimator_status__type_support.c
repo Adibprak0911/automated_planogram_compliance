@@ -76,7 +76,7 @@ void px4_msgs__msg__EstimatorStatus__rosidl_typesupport_introspection_c__assign_
   *item = *value;
 }
 
-static rosidl_typesupport_introspection_c__MessageMember px4_msgs__msg__EstimatorStatus__rosidl_typesupport_introspection_c__EstimatorStatus_message_member_array[38] = {
+static rosidl_typesupport_introspection_c__MessageMember px4_msgs__msg__EstimatorStatus__rosidl_typesupport_introspection_c__EstimatorStatus_message_member_array[37] = {
   {
     "timestamp",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_UINT64,  // type
@@ -205,23 +205,6 @@ static rosidl_typesupport_introspection_c__MessageMember px4_msgs__msg__Estimato
     0,  // array size
     false,  // is upper bound
     offsetof(px4_msgs__msg__EstimatorStatus, pos_vert_accuracy),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
-    "innovation_check_flags",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_UINT16,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(px4_msgs__msg__EstimatorStatus, innovation_check_flags),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -728,7 +711,7 @@ static rosidl_typesupport_introspection_c__MessageMember px4_msgs__msg__Estimato
 static const rosidl_typesupport_introspection_c__MessageMembers px4_msgs__msg__EstimatorStatus__rosidl_typesupport_introspection_c__EstimatorStatus_message_members = {
   "px4_msgs__msg",  // message namespace
   "EstimatorStatus",  // message name
-  38,  // number of fields
+  37,  // number of fields
   sizeof(px4_msgs__msg__EstimatorStatus),
   px4_msgs__msg__EstimatorStatus__rosidl_typesupport_introspection_c__EstimatorStatus_message_member_array,  // message members
   px4_msgs__msg__EstimatorStatus__rosidl_typesupport_introspection_c__EstimatorStatus_init_function,  // function to initialize message memory (memory has to be allocated)

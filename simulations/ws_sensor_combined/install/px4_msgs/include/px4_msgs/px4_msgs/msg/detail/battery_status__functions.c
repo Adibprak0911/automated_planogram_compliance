@@ -20,9 +20,7 @@ px4_msgs__msg__BatteryStatus__init(px4_msgs__msg__BatteryStatus * msg)
   // timestamp
   // connected
   // voltage_v
-  // voltage_filtered_v
   // current_a
-  // current_filtered_a
   // current_average_a
   // discharged_mah
   // remaining
@@ -57,6 +55,13 @@ px4_msgs__msg__BatteryStatus__init(px4_msgs__msg__BatteryStatus * msg)
   // average_time_to_full
   // over_discharge_count
   // nominal_voltage
+  // internal_resistance_estimate
+  // ocv_estimate
+  // ocv_estimate_filtered
+  // volt_based_soc_estimate
+  // voltage_prediction
+  // prediction_error
+  // estimation_covariance_norm
   return true;
 }
 
@@ -69,9 +74,7 @@ px4_msgs__msg__BatteryStatus__fini(px4_msgs__msg__BatteryStatus * msg)
   // timestamp
   // connected
   // voltage_v
-  // voltage_filtered_v
   // current_a
-  // current_filtered_a
   // current_average_a
   // discharged_mah
   // remaining
@@ -106,6 +109,13 @@ px4_msgs__msg__BatteryStatus__fini(px4_msgs__msg__BatteryStatus * msg)
   // average_time_to_full
   // over_discharge_count
   // nominal_voltage
+  // internal_resistance_estimate
+  // ocv_estimate
+  // ocv_estimate_filtered
+  // volt_based_soc_estimate
+  // voltage_prediction
+  // prediction_error
+  // estimation_covariance_norm
 }
 
 bool
@@ -126,16 +136,8 @@ px4_msgs__msg__BatteryStatus__are_equal(const px4_msgs__msg__BatteryStatus * lhs
   if (lhs->voltage_v != rhs->voltage_v) {
     return false;
   }
-  // voltage_filtered_v
-  if (lhs->voltage_filtered_v != rhs->voltage_filtered_v) {
-    return false;
-  }
   // current_a
   if (lhs->current_a != rhs->current_a) {
-    return false;
-  }
-  // current_filtered_a
-  if (lhs->current_filtered_a != rhs->current_filtered_a) {
     return false;
   }
   // current_average_a
@@ -276,6 +278,34 @@ px4_msgs__msg__BatteryStatus__are_equal(const px4_msgs__msg__BatteryStatus * lhs
   if (lhs->nominal_voltage != rhs->nominal_voltage) {
     return false;
   }
+  // internal_resistance_estimate
+  if (lhs->internal_resistance_estimate != rhs->internal_resistance_estimate) {
+    return false;
+  }
+  // ocv_estimate
+  if (lhs->ocv_estimate != rhs->ocv_estimate) {
+    return false;
+  }
+  // ocv_estimate_filtered
+  if (lhs->ocv_estimate_filtered != rhs->ocv_estimate_filtered) {
+    return false;
+  }
+  // volt_based_soc_estimate
+  if (lhs->volt_based_soc_estimate != rhs->volt_based_soc_estimate) {
+    return false;
+  }
+  // voltage_prediction
+  if (lhs->voltage_prediction != rhs->voltage_prediction) {
+    return false;
+  }
+  // prediction_error
+  if (lhs->prediction_error != rhs->prediction_error) {
+    return false;
+  }
+  // estimation_covariance_norm
+  if (lhs->estimation_covariance_norm != rhs->estimation_covariance_norm) {
+    return false;
+  }
   return true;
 }
 
@@ -293,12 +323,8 @@ px4_msgs__msg__BatteryStatus__copy(
   output->connected = input->connected;
   // voltage_v
   output->voltage_v = input->voltage_v;
-  // voltage_filtered_v
-  output->voltage_filtered_v = input->voltage_filtered_v;
   // current_a
   output->current_a = input->current_a;
-  // current_filtered_a
-  output->current_filtered_a = input->current_filtered_a;
   // current_average_a
   output->current_average_a = input->current_average_a;
   // discharged_mah
@@ -369,6 +395,20 @@ px4_msgs__msg__BatteryStatus__copy(
   output->over_discharge_count = input->over_discharge_count;
   // nominal_voltage
   output->nominal_voltage = input->nominal_voltage;
+  // internal_resistance_estimate
+  output->internal_resistance_estimate = input->internal_resistance_estimate;
+  // ocv_estimate
+  output->ocv_estimate = input->ocv_estimate;
+  // ocv_estimate_filtered
+  output->ocv_estimate_filtered = input->ocv_estimate_filtered;
+  // volt_based_soc_estimate
+  output->volt_based_soc_estimate = input->volt_based_soc_estimate;
+  // voltage_prediction
+  output->voltage_prediction = input->voltage_prediction;
+  // prediction_error
+  output->prediction_error = input->prediction_error;
+  // estimation_covariance_norm
+  output->estimation_covariance_norm = input->estimation_covariance_norm;
   return true;
 }
 

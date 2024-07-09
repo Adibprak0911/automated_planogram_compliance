@@ -75,7 +75,7 @@ void assign_function__EstimatorStatus__output_tracking_error(
   item = value;
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember EstimatorStatus_message_member_array[38] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember EstimatorStatus_message_member_array[37] = {
   {
     "timestamp",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT64,  // type
@@ -204,23 +204,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember EstimatorStat
     0,  // array size
     false,  // is upper bound
     offsetof(px4_msgs::msg::EstimatorStatus, pos_vert_accuracy),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
-    "innovation_check_flags",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT16,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(px4_msgs::msg::EstimatorStatus, innovation_check_flags),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -727,7 +710,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember EstimatorStat
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers EstimatorStatus_message_members = {
   "px4_msgs::msg",  // message namespace
   "EstimatorStatus",  // message name
-  38,  // number of fields
+  37,  // number of fields
   sizeof(px4_msgs::msg::EstimatorStatus),
   EstimatorStatus_message_member_array,  // message members
   EstimatorStatus_init_function,  // function to initialize message memory (memory has to be allocated)

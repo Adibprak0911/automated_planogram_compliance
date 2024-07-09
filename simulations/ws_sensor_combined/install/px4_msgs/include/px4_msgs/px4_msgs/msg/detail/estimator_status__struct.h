@@ -406,33 +406,19 @@ typedef struct px4_msgs__msg__EstimatorStatus
   float pos_horiz_accuracy;
   /// 1-Sigma estimated vertical position accuracy relative to the estimators origin (m)
   float pos_vert_accuracy;
-  /// Bitmask to indicate pass/fail status of innovation consistency checks
-  uint16_t innovation_check_flags;
-  /// 0 - true if velocity observations have been rejected
-  /// 1 - true if horizontal position observations have been rejected
-  /// 2 - true if true if vertical position observations have been rejected
-  /// 3 - true if the X magnetometer observation has been rejected
-  /// 4 - true if the Y magnetometer observation has been rejected
-  /// 5 - true if the Z magnetometer observation has been rejected
-  /// 6 - true if the yaw observation has been rejected
-  /// 7 - true if the airspeed observation has been rejected
-  /// 8 - true if the synthetic sideslip observation has been rejected
-  /// 9 - true if the height above ground observation has been rejected
-  /// 10 - true if the X optical flow observation has been rejected
-  /// 11 - true if the Y optical flow observation has been rejected
-  /// ratio of the largest magnetometer innovation component to the innovation test limit
+  /// low-pass filtered ratio of the largest magnetometer innovation component to the innovation test limit
   float mag_test_ratio;
-  /// ratio of the largest velocity innovation component to the innovation test limit
+  /// low-pass filtered ratio of the largest velocity innovation component to the innovation test limit
   float vel_test_ratio;
-  /// ratio of the largest horizontal position innovation component to the innovation test limit
+  /// low-pass filtered ratio of the largest horizontal position innovation component to the innovation test limit
   float pos_test_ratio;
-  /// ratio of the vertical position innovation to the innovation test limit
+  /// low-pass filtered ratio of the vertical position innovation to the innovation test limit
   float hgt_test_ratio;
-  /// ratio of the true airspeed innovation to the innovation test limit
+  /// low-pass filtered ratio of the true airspeed innovation to the innovation test limit
   float tas_test_ratio;
-  /// ratio of the height above ground innovation to the innovation test limit
+  /// low-pass filtered ratio of the height above ground innovation to the innovation test limit
   float hagl_test_ratio;
-  /// ratio of the synthetic sideslip innovation to the innovation test limit
+  /// low-pass filtered ratio of the synthetic sideslip innovation to the innovation test limit
   float beta_test_ratio;
   /// Bitmask indicating which filter kinematic state outputs are valid for flight control use.
   uint16_t solution_status_flags;

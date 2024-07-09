@@ -440,6 +440,20 @@ struct SensorGps_
   }
 
   // constant declarations
+  static constexpr uint8_t FIX_TYPE_NONE =
+    1u;
+  static constexpr uint8_t FIX_TYPE_2D =
+    2u;
+  static constexpr uint8_t FIX_TYPE_3D =
+    3u;
+  static constexpr uint8_t FIX_TYPE_RTCM_CODE_DIFFERENTIAL =
+    4u;
+  static constexpr uint8_t FIX_TYPE_RTK_FLOAT =
+    5u;
+  static constexpr uint8_t FIX_TYPE_RTK_FIXED =
+    6u;
+  static constexpr uint8_t FIX_TYPE_EXTRAPOLATED =
+    8u;
   static constexpr uint8_t JAMMING_STATE_UNKNOWN =
     0u;
   static constexpr uint8_t JAMMING_STATE_OK =
@@ -621,6 +635,41 @@ using SensorGps =
   px4_msgs::msg::SensorGps_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
+template<typename ContainerAllocator>
+constexpr uint8_t SensorGps_<ContainerAllocator>::FIX_TYPE_NONE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
+template<typename ContainerAllocator>
+constexpr uint8_t SensorGps_<ContainerAllocator>::FIX_TYPE_2D;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
+template<typename ContainerAllocator>
+constexpr uint8_t SensorGps_<ContainerAllocator>::FIX_TYPE_3D;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
+template<typename ContainerAllocator>
+constexpr uint8_t SensorGps_<ContainerAllocator>::FIX_TYPE_RTCM_CODE_DIFFERENTIAL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
+template<typename ContainerAllocator>
+constexpr uint8_t SensorGps_<ContainerAllocator>::FIX_TYPE_RTK_FLOAT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
+template<typename ContainerAllocator>
+constexpr uint8_t SensorGps_<ContainerAllocator>::FIX_TYPE_RTK_FIXED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
+template<typename ContainerAllocator>
+constexpr uint8_t SensorGps_<ContainerAllocator>::FIX_TYPE_EXTRAPOLATED;
+#endif  // __cplusplus < 201703L
 #if __cplusplus < 201703L
 // static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>

@@ -485,32 +485,16 @@ private:
   ::px4_msgs::msg::EstimatorStatus msg_;
 };
 
-class Init_EstimatorStatus_innovation_check_flags
-{
-public:
-  explicit Init_EstimatorStatus_innovation_check_flags(::px4_msgs::msg::EstimatorStatus & msg)
-  : msg_(msg)
-  {}
-  Init_EstimatorStatus_mag_test_ratio innovation_check_flags(::px4_msgs::msg::EstimatorStatus::_innovation_check_flags_type arg)
-  {
-    msg_.innovation_check_flags = std::move(arg);
-    return Init_EstimatorStatus_mag_test_ratio(msg_);
-  }
-
-private:
-  ::px4_msgs::msg::EstimatorStatus msg_;
-};
-
 class Init_EstimatorStatus_pos_vert_accuracy
 {
 public:
   explicit Init_EstimatorStatus_pos_vert_accuracy(::px4_msgs::msg::EstimatorStatus & msg)
   : msg_(msg)
   {}
-  Init_EstimatorStatus_innovation_check_flags pos_vert_accuracy(::px4_msgs::msg::EstimatorStatus::_pos_vert_accuracy_type arg)
+  Init_EstimatorStatus_mag_test_ratio pos_vert_accuracy(::px4_msgs::msg::EstimatorStatus::_pos_vert_accuracy_type arg)
   {
     msg_.pos_vert_accuracy = std::move(arg);
-    return Init_EstimatorStatus_innovation_check_flags(msg_);
+    return Init_EstimatorStatus_mag_test_ratio(msg_);
   }
 
 private:

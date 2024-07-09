@@ -1,0 +1,3 @@
+source;share/udacidrone/hook/pythonpath.ps1
+source;share/udacidrone/hook/pythonpath.dsv
+source;share/udacidrone/hook/pythonpath.sh

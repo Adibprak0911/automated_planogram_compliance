@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ws_sensor_combined/src/px4_msgs
+CMAKE_SOURCE_DIR = /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/src/px4_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ws_sensor_combined/build/px4_msgs
+CMAKE_BINARY_DIR = /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs
 
 # Utility rule file for px4_msgs__py.
 
@@ -130,6 +130,7 @@ px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_flight_p
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_follow_target.py
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_follow_target_estimator.py
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_follow_target_status.py
+px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_fuel_tank_status.py
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_generator_status.py
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_geofence_result.py
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_geofence_status.py
@@ -347,6 +348,7 @@ px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_flight_p
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_follow_target_s.c
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_follow_target_estimator_s.c
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_follow_target_status_s.c
+px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_fuel_tank_status_s.c
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_generator_status_s.c
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_geofence_result_s.c
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_geofence_status_s.c
@@ -576,6 +578,7 @@ rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: ros
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/px4_msgs/msg/FollowTarget.idl
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/px4_msgs/msg/FollowTargetEstimator.idl
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/px4_msgs/msg/FollowTargetStatus.idl
+rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/px4_msgs/msg/FuelTankStatus.idl
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/px4_msgs/msg/GeneratorStatus.idl
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/px4_msgs/msg/GeofenceResult.idl
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/px4_msgs/msg/GeofenceStatus.idl
@@ -732,8 +735,8 @@ rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: ros
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/px4_msgs/srv/VehicleCommand.idl
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/ws_sensor_combined/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/user/ws_sensor_combined/build/px4_msgs/px4_msgs__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/user/ws_sensor_combined/build/px4_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs/px4_msgs__py && /home/inlab22/Documents/automated_planogram_compliance/.venv/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_introspection_c.c
@@ -923,6 +926,9 @@ rosidl_generator_py/px4_msgs/msg/_follow_target_estimator.py: rosidl_generator_p
 
 rosidl_generator_py/px4_msgs/msg/_follow_target_status.py: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/px4_msgs/msg/_follow_target_status.py
+
+rosidl_generator_py/px4_msgs/msg/_fuel_tank_status.py: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/px4_msgs/msg/_fuel_tank_status.py
 
 rosidl_generator_py/px4_msgs/msg/_generator_status.py: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/px4_msgs/msg/_generator_status.py
@@ -1575,6 +1581,9 @@ rosidl_generator_py/px4_msgs/msg/_follow_target_estimator_s.c: rosidl_generator_
 rosidl_generator_py/px4_msgs/msg/_follow_target_status_s.c: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/px4_msgs/msg/_follow_target_status_s.c
 
+rosidl_generator_py/px4_msgs/msg/_fuel_tank_status_s.c: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/px4_msgs/msg/_fuel_tank_status_s.c
+
 rosidl_generator_py/px4_msgs/msg/_generator_status_s.c: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/px4_msgs/msg/_generator_status_s.c
 
@@ -2164,6 +2173,8 @@ px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_follow_target_estimator_s.c
 px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_follow_target_s.c
 px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_follow_target_status.py
 px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_follow_target_status_s.c
+px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_fuel_tank_status.py
+px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_fuel_tank_status_s.c
 px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_generator_status.py
 px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_generator_status_s.c
 px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_geofence_result.py
@@ -2481,10 +2492,10 @@ px4_msgs__py/CMakeFiles/px4_msgs__py.dir/build: px4_msgs__py
 .PHONY : px4_msgs__py/CMakeFiles/px4_msgs__py.dir/build
 
 px4_msgs__py/CMakeFiles/px4_msgs__py.dir/clean:
-	cd /home/user/ws_sensor_combined/build/px4_msgs/px4_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/px4_msgs__py.dir/cmake_clean.cmake
+	cd /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs/px4_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/px4_msgs__py.dir/cmake_clean.cmake
 .PHONY : px4_msgs__py/CMakeFiles/px4_msgs__py.dir/clean
 
 px4_msgs__py/CMakeFiles/px4_msgs__py.dir/depend:
-	cd /home/user/ws_sensor_combined/build/px4_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ws_sensor_combined/src/px4_msgs /home/user/ws_sensor_combined/build/px4_msgs/px4_msgs__py /home/user/ws_sensor_combined/build/px4_msgs /home/user/ws_sensor_combined/build/px4_msgs/px4_msgs__py /home/user/ws_sensor_combined/build/px4_msgs/px4_msgs__py/CMakeFiles/px4_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/src/px4_msgs /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs/px4_msgs__py /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs/px4_msgs__py /home/inlab22/Documents/automated_planogram_compliance/simulations/ws_sensor_combined/build/px4_msgs/px4_msgs__py/CMakeFiles/px4_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : px4_msgs__py/CMakeFiles/px4_msgs__py.dir/depend
 
