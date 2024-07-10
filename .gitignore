@@ -2,3 +2,5 @@
 #files that are too large
 simulations/PX4-Autopilot
 simulations/QGroundControl.AppImage
+.venv
+YOLO/yolo_videos/yolov3.weights
