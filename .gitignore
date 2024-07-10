@@ -4,3 +4,4 @@ simulations/PX4-Autopilot
 simulations/QGroundControl.AppImage
 .venv
 YOLO/yolo_videos/yolov3.weights
+YOLO/yolo_images/yolov3.weights
