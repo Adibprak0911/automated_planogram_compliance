@@ -42,14 +42,6 @@ def create_panoramic_shelf_view(video_path, output_folder, output_image_path, fr
 # Example usage:
 # create_panoramic_shelf_view("path_to_your_video.mp4", "output_frames", "panoramic_shelf.jpg", frame_rate=10)
 
-
-
-
-
-
-
-
-
 # Here’s an improved version of the stitching function using OpenCV’s feature-based stitching capabilities:
 # def stitch_frames(frame_folder, output_image_path):
 #     # Read the frames from the folder
