@@ -26,7 +26,7 @@ while True:
     if not ret:
         break
 
-    # Save only every third frame
+    # Save only every tenth frame
     if frame_number % 10 == 0:
         frame_filename = os.path.join(output_dir, f'frame_{saved_frame_number:04d}.jpg')
         cv2.imwrite(frame_filename, frame)
