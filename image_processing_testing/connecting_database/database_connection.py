@@ -3,11 +3,13 @@ import cv2
 from matplotlib import pyplot as plt
 import numpy as np
 import os
+import itertools
 import database_interaction
 import predict
+from itertools import permutations
 
 def list_image_files(folder_path):
-    image_extensions = {'.jpg'}
+    image_extensions = {'.jpeg'}
     image_files = []
 
     for file_name in os.listdir(folder_path):
@@ -16,20 +18,21 @@ def list_image_files(folder_path):
     
     return image_files
 
+def generate_two_combinations(items):
+    return [' '.join(p) for p in permutations(items, 2)]
+
+
 folder_path = 'image_processing_testing/connecting_database/images'
 
 image_files = list_image_files(folder_path)
-print(image_files)
-print(len(image_files))
 
 if not image_files:
     print("No image files in the folder")
 else:
     for i in range(len(image_files)):
         image = folder_path + '/' + image_files[i]
-        reader = easyocr.Reader(['en'], gpu=False)
+        reader = easyocr.Reader(['en'], gpu=True)
         result = list(reader.readtext(image))
-        print(type(result))
         
         text_only = list()
         for j in range(0, len(result)):
@@ -61,9 +64,8 @@ else:
                     largest_text = res[1].lower()
 
             if largest_box:
-                print(largest_text)
                 largest_text = predict.possible_corrections(largest_text)[0]
-                print(largest_text)
+                # print(largest_text)
 
                 # Draw polygon for the largest detected text
                 pts = np.array(largest_box, np.int32)
@@ -80,10 +82,15 @@ else:
                 cv2.putText(img, largest_text, (text_x, text_y), font, font_scale, (0, 255, 0), font_thickness)
                 
                 flavours = database_interaction.get_flavours(largest_text)
-                matches = list({sub for item in text_only for sub in flavours if sub in item})[0]
 
-                print(largest_text + ", ", matches)  
+                # Apply possible corrections to all words in text_only
+                corrected_text_only = [predict.possible_corrections(word)[0] for word in text_only]
 
+                combinations = generate_two_combinations(corrected_text_only)
+                matches = list({sub for item in combinations for sub in flavours if sub in item})
+
+                # print(matches)
+                print(largest_text + ",", matches[0])  
 
         else:
             print(f"No text detected in image {image_files[i]}")
@@ -92,4 +99,3 @@ else:
         plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
         plt.axis('off')
         plt.show()
-        
