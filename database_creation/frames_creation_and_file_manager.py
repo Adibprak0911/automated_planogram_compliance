@@ -38,7 +38,7 @@ def extract_and_combine_frames(video_folder, output_folder, final_output_folder)
             if not ret:
                 break
 
-            if frame_number % 3 == 0:
+            if frame_number % 10 == 0:
                 frame_filename = os.path.join(output_folder, f'frame_{saved_frame_number:04d}.jpg')
                 cv2.imwrite(frame_filename, frame)
                 saved_frame_number += 1
@@ -65,8 +65,8 @@ def extract_and_combine_frames(video_folder, output_folder, final_output_folder)
     print(f"Files have been successfully combined and renamed in {final_output_folder}.")
 
 # Example usage
-video_folder = '/home/user/Documents/automated_planogram_compliance-1/database_creation/cheetos_masalaballs_videos/cheetos_masalaballs/'
-output_folder = '/home/user/Documents/automated_planogram_compliance-1/database_creation/cheetos_masalaballs_frames/'
-final_output_folder = '/home/user/Documents/automated_planogram_compliance-1/database_creation/frames/cheetos_masalaballs/'
+video_folder = '/home/user/Documents/automated_planogram_compliance-1/database_creation/videosforyolo/allthree/'
+output_folder = '/home/user/Documents/automated_planogram_compliance-1/database_creation/frames/for annotation/allthree/'
+final_output_folder = '/home/user/Documents/automated_planogram_compliance-1/database_creation/framesforyolo/allthree/'
 
 extract_and_combine_frames(video_folder, output_folder, final_output_folder)
