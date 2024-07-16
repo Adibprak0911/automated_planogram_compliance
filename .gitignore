@@ -5,3 +5,13 @@ simulations/QGroundControl.AppImage
 .venv
 YOLO/yolo_videos/yolov3.weights
 YOLO/yolo_images/yolov3.weights
+image_image_processing_testing
+install
+lib
+lib64
+log
+opencv
+simulations
+YOLO
+build
+bin
