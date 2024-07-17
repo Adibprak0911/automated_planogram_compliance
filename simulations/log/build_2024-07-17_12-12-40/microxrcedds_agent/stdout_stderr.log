@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/inlab22/Documents/automated_planogram_compliance-1/simulations/build/microxrcedds_agent/CMakeCache.txt is different than the directory /home/inlab22/Documents/automated_planogram_compliance/simulations/build/microxrcedds_agent where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/inlab22/Documents/automated_planogram_compliance/simulations/Micro-XRCE-DDS-Agent" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:1511: cmake_check_build_system] Error 1

@@ -117,15 +117,9 @@ def get_flavours(product_name):
         for flavour_number in range(0, len(flavours)):
             flavours[flavour_number] = flavours[flavour_number][0]
             
-        print(flavours)
+        # print(flavours)
         # print(type(flavours))
         return flavours
-        # if flavours:
-        #     print(f"Flavours of {product_name}:")
-        #     for flavour in flavours:
-        #         print(flavour[0])
-        # else:
-        #     print(f"No flavours found for {product_name}.")
         
     except psycopg2.Error as e:
         print("Error while connecting to PostgreSQL:", e)
@@ -187,10 +181,11 @@ def get_all_words():
 if __name__ == "__main__":
     # create_database()
     
-#     # Adding sample data
-#     add_product_flavour('lays', 'original')
-#     add_product_flavour('lays', 'barbecue')
-#     add_product_flavour('lays', 'sour cream & onion')
+# #     # Adding sample data
+#       add_product_flavour('kurkure', 'chilli chatka')
+#       add_product_flavour('cheetos', 'cheese puffs')
+#       add_product_flavour('cheetos', 'masala balls')
+    #   add_product_flavour('kurkure', 'masala munch')
 #     add_product_flavour('doritos', 'nacho cheese')
 #     add_product_flavour('doritos', 'cool ranch')
 #     add_product_flavour('twister', 'orange')
@@ -203,5 +198,5 @@ if __name__ == "__main__":
     
 #     # Retrieving flavours
 #     add_product_flavour('hersheys', 'caramel')
-#     # get_all_words()
-      get_flavours('hersheys')
+    #  get_all_words()
+     get_flavours('hersheys')

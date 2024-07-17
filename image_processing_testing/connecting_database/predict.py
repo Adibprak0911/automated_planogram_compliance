@@ -3,6 +3,19 @@ import database_interaction
 all_words = database_interaction.get_all_words()
 
 # all_words = {'at', 'cat', 'bat', 'hat', 'rat', 'sprite'}
+def expand_phrases(word_list):
+    expanded_words = set()
+
+    for phrase in word_list:
+        words = phrase.split()
+        expanded_words.update(words)  # Add individual words to the set
+        expanded_words.add(phrase)    # Add the original phrase to the set
+
+    return list(expanded_words)
+
+# Example usage
+words = ["hello world"]
+all_words = expand_phrases(all_words)
 
 def edits_one(word):
     "all edits that are one edit away from word"
@@ -28,5 +41,5 @@ def possible_corrections(word):
     "generate possible spelling corrections for word"
     return list((known([word]) or known(edits_one(word)) or known(edits_two(word)) or [word]))
 
-# /print(possible_corrections("sprife"))
+print(possible_corrections("chilli chka"))
 
