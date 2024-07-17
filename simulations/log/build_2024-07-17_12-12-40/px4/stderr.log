@@ -1,0 +1,228 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/inlab22/Documents/automated_planogram_compliance-1/simulations/build/px4/CMakeCache.txt is different than the directory /home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4 where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[0mArchitecture:  amd64[0m
+[0m==> CPACK_INSTALL_PREFIX = @DEB_INSTALL_PREFIX@[0m
+Traceback (most recent call last):
+  File "/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/ament_cmake_python/px4/setup.py", line 1, in <module>
+    from setuptools import find_packages
+ModuleNotFoundError: No module named 'setuptools'
+gmake[2]: *** [platforms/ros2/CMakeFiles/ament_cmake_python_build_px4_egg.dir/build.make:70: platforms/ros2/CMakeFiles/ament_cmake_python_build_px4_egg] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:6187: platforms/ros2/CMakeFiles/ament_cmake_python_build_px4_egg.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/actuator_servos__functions.c: No such file or directory
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/actuator_controls_status__functions.c: No such file or directory
+compilation terminated.
+compilation terminated.
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/action_request__functions.c: No such file or directory
+compilation terminated.
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/actuator_motors__functions.c: No such file or directory
+compilation terminated.
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/actuator_armed__functions.c: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3557: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/actuator_controls_status__functions.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3599: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/actuator_servos__functions.c.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3529: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/action_request__functions.c.o] Error 1
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/actuator_outputs__functions.c: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3543: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/actuator_armed__functions.c.o] Error 1
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/actuator_servos_trim__functions.c: No such file or directory
+compilation terminated.
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/airspeed__functions.c: No such file or directory
+compilation terminated.
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/airspeed_validated__functions.c: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3585: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/actuator_outputs__functions.c.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3571: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/actuator_motors__functions.c.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3613: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/actuator_servos_trim__functions.c.o] Error 1
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/actuator_test__functions.c: No such file or directory
+compilation terminated.
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/adc_report__functions.c: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3655: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/airspeed__functions.c.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3669: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/airspeed_validated__functions.c.o] Error 1
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/arming_check_reply__functions.c: No such file or directory
+compilation terminated.
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/arming_check_request__functions.c: No such file or directory
+compilation terminated.
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/airspeed_wind__functions.c: No such file or directory
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3641: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/adc_report__functions.c.o] Error 1
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3627: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/actuator_test__functions.c.o] Error 1
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/battery_status__functions.c: No such file or directory
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/buffer128__functions.c: No such file or directory
+compilation terminated.
+compilation terminated.
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/autotune_attitude_control_status__functions.c: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3711: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/arming_check_request__functions.c.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3697: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/arming_check_reply__functions.c.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3683: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/airspeed_wind__functions.c.o] Error 1
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/camera_capture__functions.c: No such file or directory
+compilation terminated.
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/button_event__functions.c: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3753: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/buffer128__functions.c.o] Error 1
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_generator_c/px4/msg/detail/camera_status__functions.c: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3739: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/battery_status__functions.c.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3725: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/autotune_attitude_control_status__functions.c.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3781: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/camera_capture__functions.c.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3767: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/button_event__functions.c.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/build.make:3795: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/rosidl_generator_c/px4/msg/detail/camera_status__functions.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:5953: platforms/ros2/CMakeFiles/px4__rosidl_generator_c.dir/all] Error 2
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/actuator_servos_trim__type_support.cpp: No such file or directory
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/actuator_test__type_support.cpp: No such file or directory
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/actuator_motors__type_support.cpp: No such file or directory
+compilation terminated.
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/actuator_outputs__type_support.cpp: No such file or directory
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/actuator_armed__type_support.cpp: No such file or directory
+compilation terminated.
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/actuator_controls_status__type_support.cpp: No such file or directory
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/actuator_servos__type_support.cpp: No such file or directory
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/action_request__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:984: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/actuator_motors__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1040: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/actuator_test__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1026: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/actuator_servos_trim__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:956: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/actuator_armed__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/adc_report__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:970: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/actuator_controls_status__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/airspeed__type_support.cpp: No such file or directory
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/airspeed_validated__type_support.cpp: No such file or directory
+compilation terminated.
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/arming_check_request__type_support.cpp: No such file or directory
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:998: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/actuator_outputs__type_support.cpp.o] Error 1
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1012: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/actuator_servos__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:942: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/action_request__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/arming_check_reply__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1054: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/adc_report__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1082: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/airspeed_validated__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/battery_status__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1068: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/airspeed__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1124: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/arming_check_request__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/airspeed_wind__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1110: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/arming_check_reply__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/button_event__type_support.cpp: No such file or directory
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/buffer128__type_support.cpp: No such file or directory
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/autotune_attitude_control_status__type_support.cpp: No such file or directory
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/camera_capture__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1152: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/battery_status__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/camera_status__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1096: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/airspeed_wind__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1166: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/buffer128__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1138: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/autotune_attitude_control_status__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1180: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/button_event__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1194: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/camera_capture__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/camera_trigger__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1208: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/camera_status__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_cpp/px4/msg/can_interface_status__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1222: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/camera_trigger__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/build.make:1236: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/px4/msg/can_interface_status__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:6135: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_cpp.dir/all] Error 2
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_introspection_cpp/px4/msg/detail/action_request__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/build.make:1589: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4/msg/detail/action_request__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/action_request__type_support.cpp: No such file or directory
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/actuator_armed__type_support.cpp: No such file or directory
+compilation terminated.
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_introspection_cpp/px4/msg/detail/actuator_armed__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1603: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/actuator_armed__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/actuator_controls_status__type_support.cpp: No such file or directory
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1589: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/action_request__type_support.cpp.o] Error 1
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_introspection_cpp/px4/msg/detail/actuator_controls_status__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/build.make:1603: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4/msg/detail/actuator_armed__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_introspection_cpp/px4/msg/detail/actuator_servos__type_support.cpp: No such file or directory
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/actuator_servos__type_support.cpp: No such file or directory
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/actuator_motors__type_support.cpp: No such file or directory
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/actuator_outputs__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1617: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/actuator_controls_status__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/build.make:1617: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4/msg/detail/actuator_controls_status__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1659: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/actuator_servos__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/build.make:1659: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4/msg/detail/actuator_servos__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/adc_report__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1631: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/actuator_motors__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_introspection_cpp/px4/msg/detail/actuator_outputs__type_support.cpp: No such file or directory
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/actuator_servos_trim__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1645: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/actuator_outputs__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/airspeed__type_support.cpp: No such file or directory
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_introspection_cpp/px4/msg/detail/actuator_servos_trim__type_support.cpp: No such file or directory
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_introspection_cpp/px4/msg/detail/actuator_motors__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/build.make:1645: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4/msg/detail/actuator_outputs__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1701: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/adc_report__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1673: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/actuator_servos_trim__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/actuator_test__type_support.cpp: No such file or directory
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/airspeed_validated__type_support.cpp: No such file or directory
+compilation terminated.
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_introspection_cpp/px4/msg/detail/adc_report__type_support.cpp: No such file or directory
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/airspeed_wind__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/build.make:1673: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4/msg/detail/actuator_servos_trim__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1715: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/airspeed__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/build.make:1631: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4/msg/detail/actuator_motors__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/arming_check_request__type_support.cpp: No such file or directory
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_introspection_cpp/px4/msg/detail/actuator_test__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/build.make:1701: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4/msg/detail/adc_report__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1687: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/actuator_test__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1729: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/airspeed_validated__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1743: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/airspeed_wind__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1771: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/arming_check_request__type_support.cpp.o] Error 1
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/build.make:1687: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4/msg/detail/actuator_test__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/arming_check_reply__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[1]: *** [CMakeFiles/Makefile2:6109: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1757: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/arming_check_reply__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/autotune_attitude_control_status__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1785: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/autotune_attitude_control_status__type_support.cpp.o] Error 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/inlab22/Documents/automated_planogram_compliance/simulations/build/px4/platforms/ros2/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/battery_status__type_support.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/build.make:1799: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4/msg/detail/dds_fastrtps/battery_status__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:6031: platforms/ros2/CMakeFiles/px4__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+gmake: *** [Makefile:166: all] Error 2
