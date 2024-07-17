@@ -258,13 +258,13 @@ def generate_sdf_from_ods(ods_file_path, sdf_output_path):
             sdf_file.write('      <scale> 2 2 2 </scale>\n')
             sdf_file.write('    </include>\n')
             sdf_file.write('    <include>\n')
-            sdf_file.write('      <pose> 3 3 0.1 0 0 0 </pose>\n')
+            sdf_file.write('      <pose> 0.8 3 0.1 0 0 0 </pose>\n')
             sdf_file.write('      <uri>model://SquareShelf</uri>\n')
             sdf_file.write('      <name>shelf2</name>\n')
             sdf_file.write('      <scale> 2 2 2 </scale>\n')
             sdf_file.write('    </include>\n')
             sdf_file.write('    <include>\n')
-            sdf_file.write('      <pose> 3 3 0.8 0 0 0 </pose>\n')
+            sdf_file.write('      <pose> 0.8 3 0.8 0 0 0 </pose>\n')
             sdf_file.write('      <uri>model://SquareShelf</uri>\n')
             sdf_file.write('      <name>shelf3</name>\n')
             sdf_file.write('      <scale> 2 2 2 </scale>\n')
@@ -279,18 +279,6 @@ def generate_sdf_from_ods(ods_file_path, sdf_output_path):
             sdf_file.write('      <pose> -3 3 0.8 0 0 0 </pose>\n')
             sdf_file.write('      <uri>model://SquareShelf</uri>\n')
             sdf_file.write('      <name>shelf5</name>\n')
-            sdf_file.write('      <scale> 2 2 2 </scale>\n')
-            sdf_file.write('    </include>\n')
-            sdf_file.write('    <include>\n')
-            sdf_file.write('      <pose> 0.2 3 0.4 0 0 0 </pose>\n')
-            sdf_file.write('      <uri>model://coke_can</uri>\n')
-            sdf_file.write('      <name>coke0</name>\n')
-            sdf_file.write('      <scale> 2 2 2 </scale>\n')
-            sdf_file.write('    </include>\n')
-            sdf_file.write('    <include>\n')
-            sdf_file.write('      <pose> -0.15 3 0.5 0 0 0 </pose>\n')
-            sdf_file.write('      <uri>model://Little_Debbie_Chocolate_Cupcakes_8_ct</uri>\n')
-            sdf_file.write('      <name>cc00</name>\n')
             sdf_file.write('      <scale> 2 2 2 </scale>\n')
             sdf_file.write('    </include>\n')
             sdf_file.write('    <include>\n')
@@ -329,18 +317,8 @@ def generate_sdf_from_ods(ods_file_path, sdf_output_path):
             sdf_file.write('      <name>shelf05</name>\n')
             sdf_file.write('      <scale> 2 2 2 </scale>\n')
             sdf_file.write('    </include>\n')
-            sdf_file.write('    <include>\n')
-            sdf_file.write('      <pose> 0.2 -3 0.4 0 0 0 </pose>\n')
-            sdf_file.write('      <uri>model://coke_can</uri>\n')
-            sdf_file.write('      <name>coke01</name>\n')
-            sdf_file.write('      <scale> 2 2 2 </scale>\n')
-            sdf_file.write('    </include>\n')
-            sdf_file.write('    <include>\n')
-            sdf_file.write('      <pose> -0.15 -3 0.5 0 0 0 </pose>\n')
-            sdf_file.write('      <uri>mo   del://Little_Debbie_Chocolate_Cupcakes_8_ct</uri>\n')
-            sdf_file.write('      <name>cc1</name>\n')
-            sdf_file.write('      <scale> 2 2 2 </scale>\n')
-            sdf_file.write('    </include>\n')
+
+
             
 
             # Iterate through rows, starting from the second row (index 1)
@@ -357,11 +335,11 @@ def generate_sdf_from_ods(ods_file_path, sdf_output_path):
 
                     if include_flag:
                         # Write model definition to SDF
-                        sdf_file.write('<include>\n')
-                        sdf_file.write(f'  <uri>model://{item_name}</uri>\n')  # Use item_name in the URI tag
-                        sdf_file.write(f'  <name>{item_name}{index}</name>\n')
-                        sdf_file.write(f'  <pose>{x} {y} {z} {roll} {pitch} {yaw}</pose>\n')
-                        sdf_file.write('</include>\n')
+                        sdf_file.write('    <include>\n')
+                        sdf_file.write(f'       <uri>model://{item_name}</uri>\n')  # Use item_name in the URI tag
+                        sdf_file.write(f'       <name>{item_name}{index}</name>\n')
+                        sdf_file.write(f'       <pose>{x} {y} {z} {roll} {pitch} {yaw}</pose>\n')
+                        sdf_file.write('    </include>\n')
 
             sdf_file.write('    <spherical_coordinates>\n')
             sdf_file.write('      <surface_model>EARTH_WGS84</surface_model>\n')
@@ -379,5 +357,5 @@ def generate_sdf_from_ods(ods_file_path, sdf_output_path):
 
 # Example usage
 ods_file_path = '/home/inlab22/Documents/Planogram.ods'  # Adjust this path to your actual ODS file location
-sdf_output_path = '/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/Tools/simulation/gz/worlds/model_import.sdf'  # Adjust this path to your desired SDF output location
+sdf_output_path = '/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/Tools/simulation/gz/worlds/windy.sdf'  # Adjust this path to your desired SDF output location
 generate_sdf_from_ods(ods_file_path, sdf_output_path)
