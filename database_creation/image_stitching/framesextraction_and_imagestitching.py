@@ -46,9 +46,9 @@ def create_panoramic_shelf_view(video_path, output_folder, output_image_path, fr
     stitch_frames(output_folder, output_image_path)
 
 # Example usage:
-create_panoramic_shelf_view("/home/user/Documents/automated_planogram_compliance-1/database_creation/image_stitching/videos/panoramatrial.mov", 
+create_panoramic_shelf_view("/home/user/Documents/automated_planogram_compliance-1/database_creation/image_stitching/videos/trialvideo.mp4", 
                             "/home/user/Documents/automated_planogram_compliance-1/database_creation/image_stitching/output frames", 
-                            "/home/user/Documents/automated_planogram_compliance-1/database_creation/image_stitching/panoramic_shelf.jpg", frame_rate=10)
+                            "/home/user/Documents/automated_planogram_compliance-1/database_creation/image_stitching/trial_panoramic_videoofchips.jpg", frame_rate=10)
 
 
 
