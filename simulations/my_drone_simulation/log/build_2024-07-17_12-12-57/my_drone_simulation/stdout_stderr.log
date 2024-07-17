@@ -1,0 +1,33 @@
+running egg_info
+creating build/my_drone_simulation/my_drone_simulation.egg-info
+writing build/my_drone_simulation/my_drone_simulation.egg-info/PKG-INFO
+writing dependency_links to build/my_drone_simulation/my_drone_simulation.egg-info/dependency_links.txt
+writing entry points to build/my_drone_simulation/my_drone_simulation.egg-info/entry_points.txt
+writing requirements to build/my_drone_simulation/my_drone_simulation.egg-info/requires.txt
+writing top-level names to build/my_drone_simulation/my_drone_simulation.egg-info/top_level.txt
+writing manifest file 'build/my_drone_simulation/my_drone_simulation.egg-info/SOURCES.txt'
+reading manifest file 'build/my_drone_simulation/my_drone_simulation.egg-info/SOURCES.txt'
+writing manifest file 'build/my_drone_simulation/my_drone_simulation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/build/my_drone_simulation/build
+creating /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/build/my_drone_simulation/build/lib
+creating /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/build/my_drone_simulation/build/lib/my_drone_simulation
+copying my_drone_simulation/__init__.py -> /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/build/my_drone_simulation/build/lib/my_drone_simulation
+running install
+running install_lib
+creating /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/install/my_drone_simulation/lib/python3.10/site-packages/my_drone_simulation
+copying /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/build/my_drone_simulation/build/lib/my_drone_simulation/__init__.py -> /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/install/my_drone_simulation/lib/python3.10/site-packages/my_drone_simulation
+byte-compiling /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/install/my_drone_simulation/lib/python3.10/site-packages/my_drone_simulation/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/install/my_drone_simulation/share/ament_index
+creating /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/install/my_drone_simulation/share/ament_index/resource_index
+creating /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/install/my_drone_simulation/share/ament_index/resource_index/packages
+copying resource/my_drone_simulation -> /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/install/my_drone_simulation/share/ament_index/resource_index/packages
+copying package.xml -> /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/install/my_drone_simulation/share/my_drone_simulation
+creating /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/install/my_drone_simulation/share/my_drone_simulation/launch
+copying launch/drone_simulation_launch.py -> /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/install/my_drone_simulation/share/my_drone_simulation/launch
+running install_egg_info
+Copying build/my_drone_simulation/my_drone_simulation.egg-info to /home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/install/my_drone_simulation/lib/python3.10/site-packages/my_drone_simulation-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/inlab22/Documents/automated_planogram_compliance-1/simulations/my_drone_simulation/build/my_drone_simulation/install.log'
