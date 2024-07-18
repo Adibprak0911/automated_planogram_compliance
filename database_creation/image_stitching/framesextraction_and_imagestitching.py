@@ -46,38 +46,9 @@ def create_panoramic_shelf_view(video_path, output_folder, output_image_path, fr
     stitch_frames(output_folder, output_image_path)
 
 # Example usage:
-<<<<<<< Updated upstream
-create_panoramic_shelf_view("/home/user/Documents/automated_planogram_compliance-1/database_creation/image_stitching/videos/trialvideo.mp4", 
-                            "/home/user/Documents/automated_planogram_compliance-1/database_creation/image_stitching/output frames", 
-                            "/home/user/Documents/automated_planogram_compliance-1/database_creation/image_stitching/trial_panoramic_videoofchips.jpg", frame_rate=10)
-=======
-create_panoramic_shelf_view("database_creation/image_stitching/videos/output_video.mov", 
-                            "database_creation/image_stitching/output frames", 
-                            "database_creation/image_stitching/panoramic_shelf.jpg", frame_rate=10)
->>>>>>> Stashed changes
+# create_panoramic_shelf_view("database_creation/image_stitching/videos/panoramatrial.mov", 
+#                             "database_creation/image_stitching/output frames", 
+#                             "database_creation/image_stitching/panoramic_shelf.jpg", frame_rate=10)
 
 
 
-
-#-------------------------STITCH FUNCTION USING " Stitcher_SCANS" MODE---------------------------
-# Here’s an improved version of the stitching function using OpenCV’s feature-based stitching capabilities:
-# def stitch_frames(frame_folder, output_image_path):
-#     # Read the frames from the folder
-#     frame_files = [os.path.join(frame_folder, f) for f in os.listdir(frame_folder) if f.endswith(".jpg")]
-#     frames = [cv2.imread(frame_file) for frame_file in sorted(frame_files)]
-    
-#     # Initialize the stitcher
-#     stitcher = cv2.Stitcher_create(cv2.Stitcher_SCANS)
-    
-#     # Perform stitching
-#     status, stitched_image = stitcher.stitch(frames)
-    
-#     if status == cv2.Stitcher_OK:
-#         # Save the final stitched image
-#         cv2.imwrite(output_image_path, stitched_image)
-#         print(f"Stitched image saved at {output_image_path}")
-#     else:
-#         print(f"Stitching failed with status code {status}")
-
-# # Example usage:
-# # stitch_frames("output_frames", "panoramic_shelf.jpg")
