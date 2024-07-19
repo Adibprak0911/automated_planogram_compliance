@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <!-- Include the model -->
+  <include>
+    <uri>model://CHEERIOS</uri>
+  </include>
+  
+  <!-- Define your empty world -->
+  <world name="empty_world">
+    <include>
+      <uri>model://ground_plane</uri> <!-- Replace with your ground plane model if needed -->
+    </include>
+    
+    <!-- Add your CHEERIOS model -->
+    <model name="CHEERIOS">
+      <pose>0 0 0 0 0 0</pose> <!-- Adjust position and orientation -->
+      <static>true</static> <!-- Set to true if the model is static -->
+    </model>
+  </world>
+</sdf>
+

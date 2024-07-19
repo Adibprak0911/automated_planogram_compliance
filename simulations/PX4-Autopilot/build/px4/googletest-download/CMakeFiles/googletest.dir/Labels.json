@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/build/px4/googletest-download/CMakeFiles/googletest"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/build/px4/googletest-download/CMakeFiles/googletest.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/build/px4/googletest-download/CMakeFiles/googletest-complete.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/build/px4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/build/px4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/build/px4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/build/px4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/build/px4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/build/px4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/build/px4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test.rule"
+		},
+		{
+			"file" : "/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/build/px4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}
