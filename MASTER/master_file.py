@@ -44,7 +44,7 @@ def calculate_subset_percentage(list1, list2):
 #adding path other directory
 
 ##ACTIVATE LATER
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../YOLO/yolo_custom/yolov5_3')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../YOLO')))
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../database_creation/image_stitching')))
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../image_processing_testing/connecting_database')))
 
