@@ -1,0 +1,36 @@
+-- Downloading...
+   dst='/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/build/px4/googletest-download/googletest-prefix/src/b796f7d44681514f58a683a3a71ff17c94edb0c1.zip'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/google/googletest/archive/b796f7d44681514f58a683a3a71ff17c94edb0c1.zip'
+-- [download 1% complete]
+-- [download 3% complete]
+-- [download 4% complete]
+-- [download 8% complete]
+-- [download 9% complete]
+-- [download 15% complete]
+-- [download 18% complete]
+-- [download 19% complete]
+-- [download 23% complete]
+-- [download 24% complete]
+-- [download 33% complete]
+-- [download 38% complete]
+-- [download 49% complete]
+-- [download 51% complete]
+-- [download 61% complete]
+-- [download 68% complete]
+-- [download 76% complete]
+-- [download 79% complete]
+-- [download 80% complete]
+-- [download 92% complete]
+-- [download 97% complete]
+-- [download 100% complete]
+-- Downloading... done
+-- extracting...
+     src='/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/build/px4/googletest-download/googletest-prefix/src/b796f7d44681514f58a683a3a71ff17c94edb0c1.zip'
+     dst='/home/inlab22/Documents/automated_planogram_compliance-1/simulations/PX4-Autopilot/build/px4/googletest-src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done

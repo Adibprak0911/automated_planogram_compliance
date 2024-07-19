@@ -1,0 +1,10 @@
+
+
+{
+		"fields": "\u0089 timestamp;\u008a desired_speed;\u008a lookahead_distance;\u008a heading_error;\u008a pid_throttle_integral;\u008a crosstrack_error;\u0086[4] _padding0;",
+		"fields_total_length": 156,
+		"orb_ids": [192],
+		"main_orb_id": 192,
+		"dependencies": [],
+		"name": "px4/RoverAckermannGuidanceStatus"
+}
