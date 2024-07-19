@@ -385,9 +385,9 @@ def apply_yolo(
 
 
 
-    return final_coordinates
+    # return final_coordinates
 
-
+apply_yolo()
 # Get coordinates
-final_coordinates = apply_yolo()
+# final_coordinates = apply_yolo()
 

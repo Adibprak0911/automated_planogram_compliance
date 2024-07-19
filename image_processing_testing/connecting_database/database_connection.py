@@ -255,6 +255,15 @@ def get_unique_filename(folder_path, base_name, extension='.jpg'):
         count += 1
     return new_filename
 
+def rename_file(old_name, new_name):
+        try:
+            os.rename(old_name, new_name)
+            print(f"File '{old_name}' successfully renamed to '{new_name}'.")
+        except FileNotFoundError:
+            print(f"File '{old_name}' not found.")
+        except FileExistsError:
+            print(f"File '{new_name}' already exists.")
+
 def text_detection(folder_path):
     image_files = list_image_files(folder_path)
 
@@ -319,16 +328,34 @@ def text_detection(folder_path):
                     combinations = generate_two_combinations(corrected_text_only)
                     matches = list({sub for item in combinations for sub in flavours if sub in item})
 
+                    #kurkure chilli chatka = 00
+                    #cheetos cheez puffs = 01
+                    #cheetos masala balls = 02
+
+
                     if matches:
                         match = matches[0]
+                        # print(match)
                         base_name = f"{largest_text}_{match}"
-                        new_filename = get_unique_filename(folder_path, base_name)
+                        # print(base_name)
+
+                        if(largest_text == "kurkure" and match == "chilli chatka"):
+                            value = "00"
+                        elif(largest_text == "cheetos" and match == "cheez puffs"):
+                            value = "01"
+                        elif(largest_text == "cheetos" and match == "masala balls"):
+                            value = "02"
+                        # new_filename = get_unique_filename(folder_path, base_name)
 
                         # Rename the file
-                        new_filepath = os.path.join(folder_path, new_filename)
-                        os.rename(image_path, new_filepath)
+                        print(image_files[i])
+                        rename_file(folder_path + "/" + image_files[i], folder_path + "/" + image_files[i][:4] + value + ".jpg")
+                        # new_filepath = os.path.join(folder_path, new_filename)
+                        #  rename_file(folder_path + "/" + filename, folder_path + "/" + value + ".jpg")
                         
-                        print(f"File renamed from {image_path} to {new_filepath}")
+                        # os.rename(image_path, new_filepath)
+                        
+                        # print(f"File renamed from {image_path} to {new_filepath}")
 
                         # Display the image with the bounding box and text
                         plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
@@ -345,3 +372,4 @@ def text_detection(folder_path):
 
 # Example usage
 # text_detection("image_processing_testing/connecting_database/images/chips")
+text_detection(folder_path = "MASTER/yolo_results/exp/crops/chips")
