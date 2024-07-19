@@ -41,5 +41,5 @@ def possible_corrections(word):
     "generate possible spelling corrections for word"
     return list((known([word]) or known(edits_one(word)) or known(edits_two(word)) or [word]))
 
-print(possible_corrections("chilli chka"))
+# print(possible_corrections("chilli chka"))
 

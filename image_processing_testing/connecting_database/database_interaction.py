@@ -180,12 +180,14 @@ def get_all_words():
 # Main function to demonstrate usage
 if __name__ == "__main__":
     # create_database()
-    
+    pass
 # #     # Adding sample data
-#       add_product_flavour('kurkure', 'chilli chatka')
-#       add_product_flavour('cheetos', 'cheese puffs')
-#       add_product_flavour('cheetos', 'masala balls')
-    #   add_product_flavour('kurkure', 'masala munch')
+    # add_product_flavour('doritos', 'cheese')
+    add_product_flavour('cheetos', 'cheez puffs')
+    # add_product_flavour('geers', 'cheese')
+    # add_product_flavour('cheetos', 'cheese puffs')
+    # add_product_flavour('cheetos', 'masala balls')
+    # add_product_flavour('kurkure', 'masala munch')
 #     add_product_flavour('doritos', 'nacho cheese')
 #     add_product_flavour('doritos', 'cool ranch')
 #     add_product_flavour('twister', 'orange')
@@ -199,4 +201,4 @@ if __name__ == "__main__":
 #     # Retrieving flavours
 #     add_product_flavour('hersheys', 'caramel')
     #  get_all_words()
-     get_flavours('hersheys')
+    # print(get_flavours('cheetos'))
